@@ -1,0 +1,47 @@
+'-------------------------------------------------------------------------------
+'-- VBS script file
+'-- Created on 2006/12/21 10:50:16
+'-- Author: Kaan Oenen
+'-- Comment: Main Script for "Load an old Test" Menu
+'-------------------------------------------------------------------------------
+
+Call testload()
+
+'-------------------------------------------------------------------------------
+'Sub procedure
+'testload()
+'compatible with dialogbox "Offline_v2.4"
+'
+'Description
+'
+'-------------------------------------------------------------------------------
+'Variables
+'K: Number of files
+
+'ms' same as testload.vbs: Menu-Entry "&Load an old Test",DEV01
+'ms' should be removed in abb_dvlp.vbs
+'ms' same holds for "Convert to &Waveform (equidistant x)",DEV02 Entry 
+
+Sub testload()
+  
+  Globaldim "labcode,loadmode"
+  labcode = L1
+  loadmode = L2
+  
+  'Already loaded by abbext.vbs
+  'Call ScriptCmdAdd(AutoActPath & "..\equidistant_x\equix.vbs") 'Must be in the same Path as this File
+  'Call ScriptCmdAdd(AutoActPath & "importrbs.vbs") 'Must be in the same Path as this File
+  
+  If SudDlgShow("Dlg1",AutoActPath & "offline.sud") = "IDOk" Then
+    'For I = 0 to K  'Ubound(sDataName)
+    '  NameString = NameString&" "&sDataName(I)&" "&sReportName(I)
+    'Next
+    'Call msgbox("Selected labcode: "&labcode&" and "&NameString) 
+  End if
+  
+  'Never remove: Cases a Reset of the Script-Engine and corresp. Menu to crash
+  'Call ScriptCmdRemove(AutoActPath & "..\equidistant_x\equix.vbs") 'Must be in the same Path as this File
+  'Call ScriptCmdRemove(AutoActPath & "importrbs.vbs")
+  
+End sub
+'-------------------------------------------------------------------------------

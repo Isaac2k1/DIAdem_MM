@@ -1,0 +1,131 @@
+'-------------------------------------------------------------------------------
+'-- VBS script file
+'-- Created on 06/29/2006 09:33:28
+'-- Modified on 28.03.2013 10:10:00 by Markus
+'--                Report function repaired (directory C:\DIAdem\abbext\Report is needed & activation of lines 54,55,113,114 & 115, ask Markus Averes or Marco Mailand)
+'-- Author: 
+'-- Comment: 
+'-------------------------------------------------------------------------------
+Option Explicit
+
+'-------------------------------------------------------------------------------
+'Register ABB User-Commands Files at start-up: Those Files contain
+'Functions that are added to  the  standdard  DIAdem-Functionality
+'and must be localized in the same Directory as this Start-Script.
+'-------------------------------------------------------------------------------
+Call ScriptCmdAdd(AutoActPath & "abb_user_commands.vbs")
+Call ScriptCmdAdd(AutoActPath & "equix\equix.vbs")
+Call ScriptCmdAdd(AutoActPath & "importrbs\importrbs.vbs")
+
+'-------------------------------------------------------------------------------
+'Create ABB menu in all DIAdem panels
+'-------------------------------------------------------------------------------
+Dim DDWindows(4), Window
+
+DDWindows(0) = "NAVIGATOR"
+DDWindows(1) = "VIEW"
+DDWindows(2) = "ANALYSIS"
+DDWindows(3) = "REPORT"
+DDWindows(4) = "SCRIPT"
+
+'Create Strings for [MenuItemFct] : menu item functions for ABB Menu
+Dim ABB01 : ABB01 = "Call Scriptstart("""  & AutoActPath & "importrbs\testload.vbs"")"
+Dim ABB02 : ABB02 = "Call Scriptstart("""  & AutoActPath & "equix\num2wf.vbs"")"
+Dim ABB03 : ABB03 = "Call Scriptstart("""  & AutoActPath & "Travel_comp\Travel_compare.vbs"")"
+Dim ABB04 : ABB04 = "Call Scriptstart("""  & AutoActPath & "ExportTest\ExportTest.vbs"")"
+
+'Create Strings for [MenuItemFct] : menu item functions for Developer Menu
+Dim DEV01 : DEV01 = "Call Scriptstart("""  & AutoActPath & "evaludef_for_edit.vbs"")"
+Dim DEV02 : DEV02 = "Call Scriptstart("""  & AutoActPath & "batch_processing.vbs"")"
+Dim DEV03 : DEV03 = "Call Scriptstart("""  & AutoActPath & "Kanalvergleich\Kanalvergleich.vbs"")"
+Dim DEV04 : DEV04 = "change_menu(""user"")"
+Dim DEV05 : DEV05 = "change_menu(""dvlp"")"
+Dim DEV06 : DEV06 = "Call Scriptstart("""  & AutoActPath & "Tangentcursor\TangentCursor_Init.vbs"")"
+Dim DEV07 : DEV07 = "Call Scriptstart("""  & AutoActPath & "Tangentcursor\stop_tangent_cursor.vbs"")"
+Dim DEV08 : DEV08 = "Call Scriptstart("""  & AutoActPath & "testload_ludvika\load_test_ludvika.vbs"")"
+Dim DEV09 : DEV09 = "Call Scriptstart("""  & AutoActPath & "chn_prop_copy\prop_chn.vbs"")"
+Dim DEV10 : DEV10 = "Call Scriptstart("""  & AutoActPath & "laser_time_shift\time_shift_of_laser_measurement.vbs"", ""manual"")"
+Dim DEV11 : DEV11 = "Call Scriptstart("""  & AutoActPath & "testload_kema\load_test_kema.vbs"")"
+Dim DEV12 : DEV12 = "Call Scriptstart("""  & AutoActPath & "TestRecord\TestRecord.vbs"")"
+Dim DEV13 : DEV13 = "Call Scriptstart("""  & AutoActPath & "calc_travel\calc_travel.vbs"")"
+Dim DEV14 : DEV14 = "Call Scriptstart("""  & AutoActPath & "Integrate_channel_with_arcing-time\Integrate_with_arcing-time.VBS"")"
+Dim DEV15 : Dev15 = "Call Scriptstart("""  & AutoActPath & "LoadTest\Load_Test.VBS"")"
+
+'Report function only for test engineers (directory C:\DIAdem\abbext\Report is needed & activation of lines 54,55,113,114 & 115, ask Markus Averes or Marco Mailand)
+'Dim DEV15 : DEV15 = "Call Scriptstart("""  & AutoActPath & "report\Generalplot.vbs"")"                'MA          
+'Dim DEV16 : DEV16 = "Call Scriptstart("""  & AutoActPath & "report\Detailplot.vbs"")"                 'MA
+'To implement a new function into developer menu add a new Dim line above this comment and scroll down to the menu section.
+'
+'Restores the default settings
+Call MenuReset()
+
+Dim tfh,menu_mode
+
+' open text file, read formula from text file
+tfh = TextFileOpen("C:\Diadem\configs\user_mode.txt", tfRead)
+  If TextFileError(tfh) = 0 Then
+      menu_mode=Textfilereadln(tfh)
+  end if
+textfileclose(tfh)
+
+For each Window in DDWindows
+  'This call will populate variables such as MenuItemCount
+  Call MenuItemCountGet(Window, "M")
+  
+  'Add ABB Menu
+  'This call creates the main entry in the drop down menu area in DIAdem
+  Call MenuItemInsert(Window, cstr(MenuItemCount), "Popup", "&ABB")
+  'This call adds a new menu item to the end of the main menu bar in all panels
+  'Call MenuItemAdd(Window,"M","MenuItem","ABB")
+  Call MenuItemInsert(Window, cstr(MenuItemCount)& ".1" ,"MENUITEM","&Load Test",ABB01)
+  Call MenuItemInsert(Window, cstr(MenuItemCount)& ".2" ,"MENUITEM","Convert to &Waveform (equidistant x)",ABB02)
+  Call MenuItemInsert(Window, cstr(MenuItemCount)& ".3" ,"MENUITEM","Travel compare",ABB03) 
+  Call MenuItemInsert(Window, cstr(MenuItemCount)& ".4" ,"MENUITEM","Export Test",ABB04)
+  
+  if menu_mode="dvlp" then 
+  
+      'Add Developer Menu
+      'This call creates the main entry in the drop down menu area in DIAdem
+      'Call MenuItemInsert(Window, cstr(MenuItemCount+1), "Popup", "&Developer")
+      'This call adds a new menu item to the end of the main menu bar in all panels
+      'Call MenuItemAdd(Window,"M","MenuItem","ABB")
+      
+  
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".5" ,"SEPARATOR","","")
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6" ,"Popup","Developer functions (not validated)","")
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.1" ,"MENUITEM","Evaluation",DEV01)
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.2" ,"MENUITEM","Batch processing for evaluation",DEV02)
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.3" ,"MENUITEM","Calibration tool",DEV03)
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.4" ,"MENUITEM","Start Tangent Cursor",DEV06)
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.5" ,"MENUITEM","Stop Tangent Cursor",DEV07)
+      
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.6" ,"Popup", "Load Test from another lab","") 
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.6.1" ,"MENUITEM","Load Test from Ludvika",DEV08)
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.6.2" ,"MENUITEM","Load Test from Kema",DEV11)
+      
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.7" ,"MENUITEM","Copy Properties to channels",DEV09)
+      
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.8" ,"MENUITEM","Laser Time Shift",DEV10)
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.9" ,"MENUITEM","TestRecord",DEV12)
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.10" ,"MENUITEM","degree -> m",DEV13)
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.11" ,"MENUITEM","Integrate i(t) with arcing-time",DEV14)
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.12" ,"MENUITEM", "TestLoad",DEV15)
+      
+      'Report function only for test engineers (directory C:\DIAdem\abbext\Report is needed & activation of lines 54,55,113,114 & 115, ask Markus Averes or Marco Mailand)
+     'Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.12" ,"Popup", "Plot","")                                  'MA
+     'Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.12.1" ,"MENUITEM", "Generalplot",DEV15)                   'MA
+     'Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.12.2" ,"MENUITEM", "Detailedplot",DEV16)                  'MA
+' To implement new MenuItem insert new Call above this comment and
+' increase the MenuItemCount of the subsequent SEPARATOR and Remove... accordingly.
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.13" ,"SEPARATOR","","")
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6.14" ,"MENUITEM","Remove developer menu",DEV04)
+  
+  elseif menu_mode="user" then 
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".5" ,"SEPARATOR","","")
+      Call MenuItemInsert(Window, cstr(MenuItemCount)& ".6" ,"MENUITEM","Add developer menu",DEV05)
+   
+  end if 'if menu_mode="dvlp" then 
+
+Next
+
+

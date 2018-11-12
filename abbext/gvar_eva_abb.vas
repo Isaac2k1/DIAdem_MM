@@ -1,0 +1,162 @@
+{.............................................................................}
+{.... User variables                                                          }
+{.... Recording date: 2006/12/11                                              }
+{.... Recording time: 17:17:09                                                }
+{.... Author        : Kaan Oenen                                              }
+{.... Comment       : User Variables for Evaluations Menu                     }
+{.............................................................................}
+{.... Use user variables to include your own variables                        }
+{.... in DIAdem. You also can define VBS variables in scripts.                }
+{.... Refer to the help for more information.                                 }
+{....   Examples:                                                             }
+{....     IntConst_  : I Readonly <4>                                         }
+{....     TextField_ : F [IntConst_] (80) <'ABC'>                             }
+{....     MyDays_    : A ('Friday', 'Saturday', 'Sunday') <'Saturday'>        }
+{....     RealVektor_: R [IntConst_] (-10,5.5) <1.5>                          }
+{.............................................................................}
+
+{'Define "basic evaluations" dynamic enumeration variable (see file basic_eva.asc)
+
+basic_eva_nam_  : G <basic_eva:1>         {'Name of evaluation in the first column
+basic_eva_ind_  : G <basic_eva:2>         {'Index of evaluation in the second column        
+basic_eva_totq_ : G <basic_eva:3>         {'Total number of elements(inputs/questions)
+
+basic_eva_q1_   : G <basic_eva:4>         {'Index of Input 1 for the basic evaluation
+basic_eva_q2_   : G <basic_eva:5>         {'Index of Input 2 for the basic evaluation
+basic_eva_q3_   : G <basic_eva:6>         {'Index of Input 3 for the basic evaluation
+basic_eva_q4_   : G <basic_eva:7>         {'Index of Input 4 for the basic evaluation
+basic_eva_q5_   : G <basic_eva:8>         {'Index of Input 5 for the basic evaluation
+basic_eva_q6_   : G <basic_eva:9>         {'Index of Input 6 for the basic evaluation
+basic_eva_q7_   : G <basic_eva:10>        {'Index of Input 7 for the basic evaluation
+basic_eva_q8_   : G <basic_eva:11>        {'Index of Input 8 for the basic evaluation
+basic_eva_q9_   : G <basic_eva:12>        {'Index of Input 9 for the basic evaluation
+basic_eva_q10_  : G <basic_eva:13>        {'Index of Input 10 for the basic evaluation
+basic_eva_q11_  : G <basic_eva:14>        {'Index of Input 11 for the basic evaluation
+basic_eva_q12_  : G <basic_eva:15>        {'Index of Input 12 for the basic evaluation
+basic_eva_q13_  : G <basic_eva:16>        {'Index of Input 13 for the basic evaluation
+basic_eva_q14_  : G <basic_eva:17>        {'Index of Input 14 for the basic evaluation
+basic_eva_q15_  : G <basic_eva:18>        {'Index of Input 15 for the basic evaluation
+
+basic_eva_res_  : G <basic_eva:19>        {'Output Type for the basic evaluation
+b_eva_out_nam_  : G <basic_eva:20>        {'Suggested output name for the basic evaluation
+
+{'Define "documentation and updates" dynamic enumaration variable (see file doc_and_updates.asc)
+
+doc_and_up_nam_ : G <doc_and_updates:1>   {'Name of "documentation and updates" (first column)
+doc_and_up_ind_ : G <doc_and_updates:2>   {'Index of "documentation and updates" (second column)
+doc_and_up_totq_: G <doc_and_updates:3>   {'Total number of elements(Inputs/questions)
+
+doc_and_up_q1_  : G <doc_and_updates:4>   {'Index of Input 1 for "documentation and updates"
+doc_and_up_q2_  : G <doc_and_updates:5>   {'Index of Input 2 for "documentation and updates"
+doc_and_up_q3_  : G <doc_and_updates:6>   {'Index of Input 3 for "documentation and updates"
+doc_and_up_q4_  : G <doc_and_updates:7>   {'Index of Input 4 for "documentation and updates"
+doc_and_up_q5_  : G <doc_and_updates:8>   {'Index of Input 5 for "documentation and updates"
+doc_and_up_q6_  : G <doc_and_updates:9>   {'Index of Input 6 for "documentation and updates"
+doc_and_up_q7_  : G <doc_and_updates:10>  {'Index of Input 7 for "documentation and updates"
+doc_and_up_q8_  : G <doc_and_updates:11>  {'Index of Input 8 for "documentation and updates"
+doc_and_up_q9_  : G <doc_and_updates:12>  {'Index of Input 9 for "documentation and updates"
+doc_and_up_q10_ : G <doc_and_updates:13>  {'Index of Input 10 for "documentation and updates"
+doc_and_up_q11_ : G <doc_and_updates:14>  {'Index of Input 11 for "documentation and updates"
+doc_and_up_q12_ : G <doc_and_updates:15>  {'Index of Input 12 for "documentation and updates"
+doc_and_up_q13_ : G <doc_and_updates:16>  {'Index of Input 13 for "documentation and updates"
+doc_and_up_q14_ : G <doc_and_updates:17>  {'Index of Input 14 for "documentation and updates"
+doc_and_up_q15_ : G <doc_and_updates:18>  {'Index of Input 15 for "documentation and updates"
+
+doc_and_up_res_ : G <doc_and_updates:19>  {'Output type for "documentation and updates"
+doc_out_nam_    : G <doc_and_updates:20>  {'Output name for "documentation and updates"
+
+{'Define "labor specific evaluations" dynamic enumaration variable (see file spec_eva.asc)
+
+spec_eva_nam_   : G <spec_eva:1>           {'Name of selected evaluation (first column)
+spec_eva_ind_   : G <spec_eva:2>           {'Index of selected evaluation (second column)
+spec_eva_totq_  : G <spec_eva:3>           {'Total number of elements(Inputs/questions)
+
+spec_eva_q1_    : G <spec_eva:4>           {'Index of Input 1 for "spec. evaluations"
+spec_eva_q2_    : G <spec_eva:5>           {'Index of Input 2 for "spec. evaluations"
+spec_eva_q3_    : G <spec_eva:6>           {'Index of Input 3 for "spec. evaluations"
+spec_eva_q4_    : G <spec_eva:7>           {'Index of Input 4 for "spec. evaluations"
+spec_eva_q5_    : G <spec_eva:8>           {'Index of Input 5 for "spec. evaluations"
+spec_eva_q6_    : G <spec_eva:9>           {'Index of Input 6 for "spec. evaluations"
+spec_eva_q7_    : G <spec_eva:10>          {'Index of Input 7 for "spec. evaluations"
+spec_eva_q8_    : G <spec_eva:11>          {'Index of Input 8 for "spec. evaluations"
+spec_eva_q9_    : G <spec_eva:12>          {'Index of Input 9 for "spec. evaluations"
+spec_eva_q10_   : G <spec_eva:13>          {'Index of Input 10 for "spec. evaluations"
+spec_eva_q11_   : G <spec_eva:14>          {'Index of Input 11 for "spec. evaluations"
+spec_eva_q12_   : G <spec_eva:15>          {'Index of Input 12 for "spec. evaluations"
+spec_eva_q13_   : G <spec_eva:16>          {'Index of Input 13 for "spec. evaluations"
+spec_eva_q14_   : G <spec_eva:17>          {'Index of Input 14 for "spec. evaluations"
+spec_eva_q15_   : G <spec_eva:18>          {'Index of Input 15 for "spec. evaluations"
+
+spec_eva_res_   : G <spec_eva:19>          {'Output type for "labor specific evaluations"
+spec_out_nam_   : G <spec_eva:20>          {'Output name for "labor specific evaluations"
+
+{'Define "input parameters for evaluations" dynamic enumaration variable (see file input_parameters.asc)
+question_ind_   : G <inout_parameters:1>
+question_       : G <inout_parameters:2>
+dialogtype_     : G <inout_parameters:3>
+input_type_     : G <inout_parameters:4>
+
+{'Define "standart input parameter names for evaluations" (see file eva_std_input.asc)
+
+std_input_1_    : G <eva_std_input:2>     {'Standart variable name for the 1st input of selected evaluation
+std_input_2_    : G <eva_std_input:3>
+std_input_3_    : G <eva_std_input:4>
+std_input_4_    : G <eva_std_input:5>
+std_input_5_    : G <eva_std_input:6>
+std_input_6_    : G <eva_std_input:7>
+std_input_7_    : G <eva_std_input:8>
+std_input_8_    : G <eva_std_input:9>
+std_input_9_    : G <eva_std_input:10>
+std_input_10_   : G <eva_std_input:11>
+std_input_11_   : G <eva_std_input:12>
+std_input_12_   : G <eva_std_input:13>
+std_input_13_   : G <eva_std_input:14>
+std_input_14_   : G <eva_std_input:15>
+std_input_15_   : G <eva_std_input:16>
+
+
+{'Define conditional dynamic enumeration variables (When)
+
+test_code_      : G <testcode:0>           {'all possible test codes in file testcode.asc
+plot_code_      : G <plotcode:0>           {'all possible plot codes in file plotcode.asc
+time_code_      : G <timecode:0>           {'all possible time codes in file timecode.asc
+
+{'Define a text field and OptionLists
+IntConst_       : I ReadOnly <20>
+text_field_     : F [IntConst_]                   {'this text field will be filled in with various OpList()
+docu_str_sel_   : F [100]
+                                                  {'Oplist(Size) Question (eval.element)   / which evaluations
+opl_y_type_     : G <oplist_y_type:0>             {'Oplist(3)  "Select type of Y-Value  :" / Y-Values of Time
+opl_ext_type_   : G <oplist_extremum_type:0>      {'Oplist(7)  "Select type of Extremum :" / Extremum: y-Val.,Extremum: t-Val 
+opl_tan_type_   : G <oplist_tangent_type:0>       {'Oplist(5)  "Select Type of Tangent  ?" / Slope-Of-Tangent 
+opl_reg_type_   : G <oplist_regression_type:0>    {'Oplist(4)  "Sel. Type of Regression :" / Regr.-Line-Slope, Regr.-Line-Y_Cut, Regr.-Line-Corr.
+opl_intg_type_  : G <oplist_integral_type:0>      {'Oplist(3)  "Select Type of Integral :" / Integral - Value                   
+opl_deri_type_  : G <oplist_derivation_type:0>    {'Oplist(2)  "Select Derivation-Type  :" / Chn-Differential                    
+opl_smo_type_   : G <oplist_smooth_type:0>        {'Oplist(3)  "Sel. the Smoothing-Type :" / Chn-Differential, ChannelSmoothing
+opl_math_op2_   : G <oplist_math_operator_2ch:0>  {'Oplist(4)  "Select the Math-Operator:" / Two-Channel-Math
+opl_math_op1_   : G <oplist_math_operator_1ch:0>  {'Oplist(8)  "Select Math-Operator    :" / One-Channel-Math
+opl_res_fourier_: G <oplist_fourier_res_type:0>   {'Oplist(3)  "Select the Result-Type  :" / FourierTransform
+opl_2var_op_    : G <oplist_operator_2var_math:0> {'Oplist(14) "Select the Operator:"      / Two-Var-Mathemat
+opl_1var_op_    : G <oplist_operator_1var_math:0> {'Oplist(15) "Select the Operator:"      / One-Var-Mathemat
+opl_dep_        : G <oplist_dependent_type:0>     {'Oplist(3)  "Select Dep-Type:"          / Code-Depend. Integer, Code-Depend. Real, Code-Depend. String
+opl_schalt_     : G <oplist_schalter_type:0>      {'Oplist(2)  "Mit welchem  Schalter ?"   / X-Duesen-Belastung                              
+opl_res_x_trv_  : G <oplist_x_trv_res_type:0>     {'Oplist(7)  "Result Type ?"             / X-TRV-Auswertung
+opl_docu_list_  : G <oplist_docu_list:0>          {'Oplist(11) "Select Type of Documentation:"/sel.-Doc.-String
+Engineer_	: G <sel_list_engineer:0>            {'Name of Engineer
+Antrieb_	: G <sel_list_antrieb:0> 	
+Bemerkung_	: G <sel_list_bemerk:0>
+Pruefzelle_	: G <sel_list_cell:0>
+Pruefobjekt_	: G <sel_list_kindofobj:0>
+Manometer_	: G <sel_list_manometer:0>
+Multimeter_	: G <sel_list_multimeter:0>
+Testschicht_	: G <sel_list_shift:0>
+Kammer_		: G <sel_list_chamber:0>
+TRV_Lastseite_	: G <sel_list_divider:0>
+TRV_Speiseseite_: G <sel_list_divider:0>
+Medium_		: G <sel_list_medium:0>
+RV_Typ_		: G <sel_list_rv:0>
+I_Messung_	: G <sel_list_shunt:0>
+Versuchs_Typ_	: G <sel_list_verstyp:0>
+Wegbahn_	: G <sel_list_wegbahn:0>
+Steuerplatz_	: G <sel_list_steuerpl:0>	
+Travel_		: G <sel_list_Travel:0>

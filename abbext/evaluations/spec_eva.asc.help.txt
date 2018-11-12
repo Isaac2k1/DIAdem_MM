@@ -1,0 +1,52 @@
+{'-----------------------------------------------------------------------------------------
+{'Dynamic Enumeration List File for Specific Evaluations
+{'
+{'Description:
+{'	There are 21 columns in this file
+{'	1st :	name of the evaluation, used for dyn.enum.variable "spec_eva_nam"
+{'	2nd : the index of the evaluation, used for dyn.enum.variable "spec_eva_ind_"
+{'	3rd : List of input and output parameters' variable types of the evaluation routine
+{'	4th : Total number of elements of the evaluation ( # of questions)
+{'	5th - 19th : Indexes of evaluation elements (max:15 elements)
+{'	20th: Variable type of the result of the evaluation
+{'	21th: Standart name of the result of the evaluation (which is offered to user in
+{'		dialogbox : "3.Modify an Equation"
+{'
+{'		"spec_eva_" and "spec_eva_ind_" global variables are used in dialog boxes of
+{'		evaluations menu
+{'
+{'Note: Do not use Tab character between the evaluation name and index
+{'it results in illegible characters in the "Add an evaluation window"
+{'-----------------------------------------------------------------------------------------
+==== Cancel ====                    ,0     ,3                                                                           ,4  ,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,           20,           21,
+Signal-Frequency                    ,101   ,<Ch><Time_Var><Time_Var><Ch><Y_Var><R4><When>                               ,7  ,  4,  5,  6, 72,  8, 10, 12,   ,   ,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+Wegumrechnung = a+bx+cx^2+...+kx^10 ,800   ,<Ch><Ch><Y_Var><Time_Var><FileName><When><Y_Var>                            ,7  ,  4, 29, 73, 74, 75, 12, 76,   ,   ,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+X-Eigenzeit-Bestimmung:             ,902   ,<Time_Var><Ch><Ch><L><When><When><When>                                     ,7  , 77, 78, 79, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-TripStart-Bestimmung:             ,914   ,<Time_Var><Ch><Time_Var><L><When><When><When>                               ,7  , 84, 78, 85, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-TripEnd-Bestimmung:               ,916   ,<Time_Var><Ch><Time_Var><L><When><When><When>                               ,7  , 86, 78, 87, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-Kontakthub-Bestimmung:            ,904   ,<Y_Var><Ch><Ch><Y_Var><Time_Var><L><When><When><When>                       ,9  , 88, 89, 79, 90, 91, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Kontakt Zeiten aus Hub:           ,906   ,<Time_Var><Ch><Y_Var><Time_Var><Y_Var><L><When>                             ,7  , 95, 89, 90, 91, 94, 80, 81,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-Kontakt Zeiten aus SpulenStrom:   ,908   ,<Time_Var><Ch><Time_Var><L><When><When>                                     ,6  , 95, 96, 97, 80, 81, 82,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-Ein/Ausschaltzeit:                ,910   ,<Time_Var><Ch><Time_Var><L><When><When><When>                               ,7  , 98, 96, 99, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-Strom-Zeiten (ANFANG ENDE):       ,900   ,<Time_Var><Time_Var><Time_Var><Ch><L><When><When>                           ,7  ,100,101,102,103, 80, 81, 82,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-Lichtbogen Zeit                   ,920   ,<Time_Var><Time_Var><Time_Var><When><When><When>                            ,6  ,104,105,106, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-Generic Time-difference           ,990   ,<Time_Var><Time_Var><Time_Var><When><When><When>                            ,6  ,107,108,109, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-Stromfluss-Dauer                  ,923   ,<Time_Var><Time_Var><When><When><When>                                      ,5  ,110,106, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-v bei 2 Hueben                    ,930   ,<Y_Var><Ch><Y_Var><Time_Var><Y_Var><Y_Var><L><When><When><When>             ,10 ,111, 89,112,113,114,115, 80, 81, 82, 83,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-v zu einer Zeit                   ,932   ,<Y_Var><Ch><Y_Var><Time_Var><Time_Var><L><When><When><When>                 ,9  ,116, 89,112,113,117, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Delta Druck max                   ,941   ,<Y_Var><Ch><Time_Var><Time_Var><T8><I2><L><When><When><When>                ,10 ,118,119,120,121,122,123, 80, 81, 82, 83,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Delta y (Zeit1 Zeit2)             ,943   ,<Y_Var><Ch><Time_Var><Time_Var><I2><I2><L><When><When><When>                ,10 ,124,125,126,127,128,129, 80, 81, 82, 83,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Strom-Ausschaltpeak:              ,949   ,<Y_Var><Ch><Time_Var><L><When><When><When>                                  ,7  ,130,103,106, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Strom-Einschaltpeak:              ,951   ,<Y_Var><Ch><Time_Var><L><When><When><When>                                  ,7  ,131,103,106, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Strom bei Kontakt-Trennung        ,953   ,<Y_Var><Ch><Time_Var><Time_Var><L><When><When><When>                        ,8  ,132,133,106,134, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Asymetrie bei CS                  ,955   ,<Y_Var><Ch><Time_Var><Time_Var><When><When><When>                           ,7  ,135,133,106,134, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Strom letzte Halbwelle            ,957   ,<Y_Var><Ch><Time_Var><L><When><When><When>                                  ,7  ,136,103,106, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-effective current                 ,959   ,<Y_Var><Ch><Time_Var><L><When><When><When>                                  ,7  ,137,103,106, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-di/dt bei Strom-Null              ,961   ,<Y_Var><Ch><Time_Var><L><L><When><When><When>                               ,8  ,138,139,106, 80,140, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Strom-Depression letzte HW        ,963   ,<Y_Var><Ch><Time_Var><Time_Var><When><When><When>                           ,7  ,141,103,142,146, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Duesen-Belastung                  ,965   ,<Y_Var><Ch><Ch><Time_Var><Time_Var><FileName><When><OpList(2)>              ,8  ,143,144,145,146,147,148,149,150,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-TRV-Auswertung                    ,967   ,<Y_Var><Ch><Ch><Time_Var><Y_Var><Time_Var><OpList(7)><L><When><When><When>  ,11 ,143,151,152,147,153,154,155, 80, 81, 82, 83,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Shorttime AC Current (IEC 694)    ,969   ,<Y_Var><Ch><Time_Var><L><When><When><When>                                  ,7  ,137,103,106, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-Dauer letzte Halbwelle            ,971   ,<Time_Var><Ch><Time_Var><L><When><When><When>                               ,7  ,156,103,106, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+X-Making-Instant                    ,973   ,<Y_Var><Ch><Time_Var><When><When><When>                                     ,6  ,157,158,106, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+X-PowerFactor                       ,?     ,                                                                            ,8  ,159,103,158,106, 80, 81, 82, 83,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,

@@ -1,0 +1,53 @@
+Qutoted from DIAdem User Manual
+
+By default, DIAdem saves the settings in the desktop file desktop.ddd.
+When a user starts DIAdem, DIAdem checks whether the folder with the
+local user settings contains a desktop file. If the folder does not contain a
+desktop file, DIAdem copies the desktop.ddd from the DIAdem folder
+into the local user settings.
+You can set up different DIAdem configurations for different users or
+different projects, save the settings in various desktop files, and load the
+files when you need them.
+To save the current settings in a new desktop file, select Settings»Options»
+Save as. To load a desktop file, select Settings»Options»Load. DIAdem
+loads the desktop file and automatically restarts.
+
+Launching DIAdem with Parameters
+
+You can open DIAdem with parameters, to preconfigure DIAdem or to
+start DIAdem with a script. Enter the parameters in the properties for the
+DIAdem call. To change the Windows shortcut to DIAdem, right-click the
+DIAdem icon. Select Properties in the shortcut menu. Add the call
+parameters you want in the Target textbox.
+
+Use the /D parameter to launch DIAdem with a specific project desktop
+file. The desktop file contains the DIAdem settings such as file paths, units,
+or the time format. To load the desktop file testrig.ddd when DIAdem
+starts, change the call to the following:
+"diadem.exe" "/DC:\diadem\testrig"
+
+Use the /C parameter to perform a command as soon as DIAdem launches.
+DIAdem works through several commands from left to right, as shown in
+the following example. To run the MyScript script when DIAdem starts,
+change the call to the following:
+"diadem.exe" "/CScriptStart('MyScript.vbs')"
+
+Use the /S parameter to specify the local system folder for a network
+installation when the DIAdem client starts. The DIAdem client searches the
+system folder for interface files and system files required for the program
+start. DIAdem also requires a USI installation and a NILM client on the
+local computer. To specify the system folder system when DIAdem
+launches, change the call to the following:
+"diadem.exe" "/SC:\diadem\system"
+
+You can use various parameters in one call, and you can use the same
+parameter several times. For example, to start an application on a test
+computer, change the call to the following:
+"diadem.exe" "/DC:\diadem\engine1"
+"/CScriptStart('MainTest.vbs')"
+"/CScriptStart('TestReport.vbs')"
+First, DIAdem loads the desktop file engine1.ddd, with the paths and
+settings set up for the project. Then, DIAdem starts the script MainTest,
+which displays the user interface for the test. When you close the user
+interface, DIAdem stops the MainTest script and starts the second script,
+TestReport.

@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<usi:tdm xmlns:usi="http://www.ni.com/Schemas/USI/1_0" version="1.0">
+
+  <usi:documentation>
+    <usi:exporter>National Instruments USI</usi:exporter>
+    <usi:exporterVersion>1.5</usi:exporterVersion>
+  </usi:documentation>
+
+  <usi:model modelName="National Instruments USI generated meta file" modelVersion="1.0">
+    <usi:include nsUri="http://www.ni.com/DataModels/DIAdem/View/2_0"/>
+  </usi:model>
+
+  <usi:include/>
+
+  <usi:data>
+    <COORDINATEDISPLAY id="usi1">
+      <name>CoordinateDisplayData</name>
+      <CoordX>20</CoordX>
+      <CoordY>20</CoordY>
+      <CoordVisible>0</CoordVisible>
+    </COORDINATEDISPLAY>
+    <SETTINGS id="usi2">
+      <name>ViewSettingData</name>
+      <PrinterMarginLeft>1</PrinterMarginLeft>
+      <PrinterMarginTop>1</PrinterMarginTop>
+      <PrinterMarginRight>1</PrinterMarginRight>
+      <PrinterMarginBottom>1</PrinterMarginBottom>
+      <PrinterRatio>1</PrinterRatio>
+    </SETTINGS>
+    <FONT id="usi3">
+      <name>Font</name>
+      <FaceName></FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>-1</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi4">
+      <name>Font</name>
+      <FaceName></FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>-1</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <SHEETS id="usi5">
+      <name>TabPageContData</name>
+      <ChannelSearchByName>1</ChannelSearchByName>
+      <LastPage>2</LastPage>
+      <Sheets>#xpointer(id("usi6"))</Sheets>
+    </SHEETS>
+    <SHEET id="usi6">
+      <name>Blatt 1</name>
+      <ChannelSearchByName>1</ChannelSearchByName>
+      <Areas>#xpointer(id("usi8"))</Areas>
+      <CursorMaster>#xpointer(id("usi7"))</CursorMaster>
+    </SHEET>
+    <CURSORMASTER id="usi7">
+      <name>CursorMasterData</name>
+      <CursorP1>0</CursorP1>
+      <CursorP2>0</CursorP2>
+      <CursorX1>0.1</CursorX1>
+      <CursorY1>169.965188697249</CursorY1>
+      <CursorX2>0.3</CursorX2>
+      <CursorY2>187.345926798816</CursorY2>
+      <Type>Band</Type>
+      <Mode>arbitrary</Mode>
+      <InterpolatingCursor>1</InterpolatingCursor>
+      <ConstantDeltas>1</ConstantDeltas>
+      <Speed>1</Speed>
+      <XRangeMode>Automatic</XRangeMode>
+      <XBegin>0</XBegin>
+      <XEnd>1</XEnd>
+    </CURSORMASTER>
+    <AREAS id="usi8">
+      <name>AreaObjectsContData</name>
+      <ActiveAreaName>Area : 2</ActiveAreaName>
+      <FirstSplitter>#xpointer(id("usi9"))</FirstSplitter>
+    </AREAS>
+    <SPLITTER id="usi9">
+      <name>AreaSplitterData</name>
+      <Direction>115</Direction>
+      <Ratio>0.5</Ratio>
+      <NextSplitter>#xpointer(id("usi10"))</NextSplitter>
+      <AreaObject>#xpointer(id("usi17"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi10">
+      <name>AreaSplitterData</name>
+      <Direction>100</Direction>
+      <Ratio>0</Ratio>
+      <NextSplitter>#xpointer(id("usi16"))</NextSplitter>
+      <CenterSplitter>#xpointer(id("usi11"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi11">
+      <name>AreaSplitterData</name>
+      <Direction>110</Direction>
+      <Ratio>0.8729792147806</Ratio>
+      <NextSplitter>#xpointer(id("usi12"))</NextSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi12">
+      <name>AreaSplitterData</name>
+      <Direction>125</Direction>
+      <Ratio>-1</Ratio>
+      <CenterSplitter>#xpointer(id("usi13"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi13">
+      <name>AreaSplitterData</name>
+      <Direction>105</Direction>
+      <Ratio>0.759299781181619</Ratio>
+      <NextSplitter>#xpointer(id("usi14"))</NextSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi14">
+      <name>AreaSplitterData</name>
+      <Direction>100</Direction>
+      <Ratio>0.218818380743983</Ratio>
+      <NextSplitter>#xpointer(id("usi15"))</NextSplitter>
+      <AreaObject>#xpointer(id("usi18"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi15">
+      <name>AreaSplitterData</name>
+      <Direction>100</Direction>
+      <Ratio>0.5</Ratio>
+      <AreaObject>#xpointer(id("usi19"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi16">
+      <name>AreaSplitterData</name>
+      <Direction>100</Direction>
+      <Ratio>0.5</Ratio>
+      <AreaObject>#xpointer(id("usi20"))</AreaObject>
+    </SPLITTER>
+    <AREA id="usi17">
+      <name>Area : 1</name>
+      <DisplayTyp>0</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi70"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi21"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi18">
+      <name>Area : 2</name>
+      <DisplayTyp>0</DisplayTyp>
+      <IsActive>1</IsActive>
+      <DisplayObject>#xpointer(id("usi71"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi22"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi19">
+      <name>Area : 4</name>
+      <DisplayTyp>-1</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObjectShared>#xpointer(id("usi23"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi20">
+      <name>Area : 3</name>
+      <DisplayTyp>-1</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObjectShared>#xpointer(id("usi24"))</DisplayObjectShared>
+    </AREA>
+    <SHAREDDATA id="usi21">
+      <name>DisplayObjSharedData</name>
+      <SharedAttributeList>#xpointer(id("usi25") id("usi26"))</SharedAttributeList>
+      <SharedChannelList>#xpointer(id("usi34") id("usi36"))</SharedChannelList>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi22">
+      <name>DisplayObjSharedData</name>
+      <SharedAttributeList>#xpointer(id("usi27") id("usi28"))</SharedAttributeList>
+      <SharedChannelList>#xpointer(id("usi38") id("usi40") id("usi42") id("usi44") id("usi46") id("usi48"))</SharedChannelList>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi23">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi24">
+      <name>DisplayObjSharedData</name>
+      <SharedAttributeList>#xpointer(id("usi29") id("usi30") id("usi31") id("usi32"))</SharedAttributeList>
+      <SharedChannelList>#xpointer(id("usi50") id("usi52") id("usi54") id("usi56"))</SharedChannelList>
+    </SHAREDDATA>
+    <SHAREDATTRIBUTEDATA id="usi25">
+      <name>name</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi26">
+      <name>groupname</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi27">
+      <name>name</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>13490</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi28">
+      <name>groupname</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi29">
+      <name>name</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi30">
+      <name>unit_string</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi31">
+      <name>CursorY</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>2</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi32">
+      <name>CursorX</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>1</Type>
+    </SHAREDATTRIBUTEDATA>
+    <VIEWMODULE id="usi33">
+      <name>ViewData</name>
+      <version>1.0.0</version>
+      <ActiveTabIndex>0</ActiveTabIndex>
+      <CoordinateDisplay>#xpointer(id("usi1"))</CoordinateDisplay>
+      <Sheets>#xpointer(id("usi5"))</Sheets>
+      <Settings>#xpointer(id("usi2"))</Settings>
+      <EventNames>
+        <s>Cursor</s>
+        <s>ChangeSheet</s>
+        <s>ZoomedArea</s>
+      </EventNames>
+      <Events>
+        <s></s>
+        <s></s>
+        <s></s>
+      </Events>
+    </VIEWMODULE>
+    <SHAREDCHANNELDATA id="usi34">
+      <name>Travel</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>Travel_ref/Travel</KanalExtName>
+      <Kanalindex>17</Kanalindex>
+      <CurveName>Curve1</CurveName>
+      <CurveData>#xpointer(id("usi58"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi35">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi36">
+      <name>Travel_2</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>Travel_comp/Travel_2</KanalExtName>
+      <Kanalindex>21</Kanalindex>
+      <CurveName>Curve3</CurveName>
+      <CurveData>#xpointer(id("usi59"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi37">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi38">
+      <name>Travel</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>Travel_ref/Travel</KanalExtName>
+      <Kanalindex>17</Kanalindex>
+      <CurveName>Curve1</CurveName>
+      <CurveData>#xpointer(id("usi60"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi39">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi40">
+      <name>Travel_2</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>Travel_comp/Travel_2</KanalExtName>
+      <Kanalindex>21</Kanalindex>
+      <CurveName>Curve2</CurveName>
+      <CurveData>#xpointer(id("usi61"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi41">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi42">
+      <name>Travel_pos_tol</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>Travel_ref/CS</KanalExtName>
+      <Kanalindex>22</Kanalindex>
+      <CurveName>Curve3</CurveName>
+      <CurveData>#xpointer(id("usi62"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi43">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi44">
+      <name>Travel_neg_tol</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>Travel_comp/CS_2</KanalExtName>
+      <Kanalindex>27</Kanalindex>
+      <CurveName>Curve4</CurveName>
+      <CurveData>#xpointer(id("usi63"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi45">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi46">
+      <name>CS</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>Travel_ref/Travel_pos_tol</KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName>Curve5</CurveName>
+      <CurveData>#xpointer(id("usi64"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi47">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi48">
+      <name>CS_2</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>Travel_ref/Travel_neg_tol</KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName>Curve6</CurveName>
+      <CurveData>#xpointer(id("usi65"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi49">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi50">
+      <name>Travel_2</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[6]/Travel_2</KanalExtName>
+      <Kanalindex>91</Kanalindex>
+      <CurveName>Curve1</CurveName>
+      <CurveData>#xpointer(id("usi66"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi51">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi52">
+      <name>Travel</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[5]/Travel</KanalExtName>
+      <Kanalindex>81</Kanalindex>
+      <CurveName>Curve2</CurveName>
+      <CurveData>#xpointer(id("usi67"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi53">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi54">
+      <name>Travel_pos_tol</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[5]/Travel_pos_tol</KanalExtName>
+      <Kanalindex>104</Kanalindex>
+      <CurveName>Curve3</CurveName>
+      <CurveData>#xpointer(id("usi68"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi55">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi56">
+      <name>Travel_neg_tol</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[5]/Travel_neg_tol</KanalExtName>
+      <Kanalindex>105</Kanalindex>
+      <CurveName>Curve4</CurveName>
+      <CurveData>#xpointer(id("usi69"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi57">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName></CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCURVEDATA id="usi58">
+      <name>2DCurveData</name>
+      <CurveColorByNr>1</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi35"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi59">
+      <name>2DCurveData</name>
+      <CurveColorByNr>3</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi37"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi60">
+      <name>2DCurveData</name>
+      <CurveColorByNr>1</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi39"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi61">
+      <name>2DCurveData</name>
+      <CurveColorByNr>3</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi41"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi62">
+      <name>2DCurveData</name>
+      <CurveColorByNr>1</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi43"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi63">
+      <name>2DCurveData</name>
+      <CurveColorByNr>3</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi45"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi64">
+      <name>2DCurveData</name>
+      <CurveColorByNr>2</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi47"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi65">
+      <name>2DCurveData</name>
+      <CurveColorByNr>2</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi49"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi66">
+      <name>2DCurveData</name>
+      <CurveColorByNr>2</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi51"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi67">
+      <name>2DCurveData</name>
+      <CurveColorByNr>3</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi53"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi68">
+      <name>2DCurveData</name>
+      <CurveColorByNr>4</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi55"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi69">
+      <name>2DCurveData</name>
+      <CurveColorByNr>5</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <CurveType>0</CurveType>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi57"))</ReferenceChannel>
+      <MarkColorRef>0</MarkColorRef>
+      <MarkFillColorRef>0</MarkFillColorRef>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <TWODAXISOBJECTDATA id="usi70">
+      <name>2DCurveChartData</name>
+      <DisplayTyp>0</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi3"))</Font>
+      <CurveList>0 1</CurveList>
+      <CurveSystem>1</CurveSystem>
+      <ActiveCurve>1</ActiveCurve>
+      <LegendWidth>28116</LegendWidth>
+      <Zooming>0</Zooming>
+      <Scrolling>0</Scrolling>
+      <DisplayX1>5e-05</DisplayX1>
+      <DisplayY1>0</DisplayY1>
+      <DisplayX2>0.62</DisplayX2>
+      <DisplayY2>205.68966076377</DisplayY2>
+      <YScalingMode>0</YScalingMode>
+      <YScalingBegin>0</YScalingBegin>
+      <YScalingEnd>1</YScalingEnd>
+      <LastZoomMode>0</LastZoomMode>
+    </TWODAXISOBJECTDATA>
+    <TWODAXISOBJECTDATA id="usi71">
+      <name>2DCurveChartData</name>
+      <DisplayTyp>0</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi4"))</Font>
+      <CurveList>0 1 2 3 4 5</CurveList>
+      <CurveSystem>1</CurveSystem>
+      <ActiveCurve>0</ActiveCurve>
+      <LegendWidth>28542</LegendWidth>
+      <Zooming>1</Zooming>
+      <Scrolling>1</Scrolling>
+      <DisplayX1>0.1</DisplayX1>
+      <DisplayY1>-0.0844548201043615</DisplayY1>
+      <DisplayX2>0.3</DisplayX2>
+      <DisplayY2>205.68966076377</DisplayY2>
+      <YScalingMode>0</YScalingMode>
+      <YScalingBegin>0</YScalingBegin>
+      <YScalingEnd>1</YScalingEnd>
+      <LastZoomMode>0</LastZoomMode>
+    </TWODAXISOBJECTDATA>
+  </usi:data>
+
+</usi:tdm>

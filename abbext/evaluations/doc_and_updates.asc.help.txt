@@ -1,0 +1,34 @@
+{'-----------------------------------------------------------------------------------------
+{'Dynamic Enumeration List File for Documentation and Updates
+{'
+{'Description:
+{'	There are 21 columns in this file
+{'	1st :	Name of the doc&upd, used for dyn.enum.variable "doc_and_up_nam_"
+{'	2nd : The index of the doc&upd, used for dyn.enum.variable "doc_and_up_ind_"
+{'	3rd : List of input and output parameters' variable types of the evaluation routine
+{'	4th : Total number of elements of the doc&upd( # of questions)
+{'	5th - 19th : Indexes of doc&upd elements (max:15 elements)
+{'	20th: Variable type of the result of the doc&upd
+{'	21th: Standart name of the result of the doc&upd (which is offered to user in
+{'		dialogbox : "3.Modify an Equation"
+{'
+{'		"doc_and_updates_" and "doc_and_upd_ind_" global variables are used in dialog boxes of
+{'		evaluations menu
+{'
+{'Note: Do not use Tab character between the 1st and 2nd column
+{'it results in illegible characters in the "Add an evaluation window"
+{'-----------------------------------------------------------------------------------------
+{'
+==== Cancel ====        ,0    ,3                                                  ,4  ,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,           20,           21,
+Document.-t_Val.        ,61   ,<Time_Var><t8><When><When><When>                   ,5  , 57, 58, 59, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+Document.-y_Val.        ,62   ,<Y_Var><R4><When><When><When>                      ,5  , 62, 63, 59, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Document.-String        ,63   ,<Text_Var><Character><When><When><When>            ,5  , 57, 64, 59, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Text_Var>,       Text 1,
+Document.-Number        ,64   ,<Int_Var><I2><When><When><When>                    ,5  , 57, 65, 59, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,    <Int_Var>,        Int 1,
+Sel.-Doc.-String        ,65   ,<Text_Var><FileName><When><When><When>             ,5  , 57, 66, 59, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Text_Var>,       Text 1,
+Runtime-Input: t_Value  ,66   ,<Time_Var><t8><When><When><When>                   ,5  , 57, 58, 67, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+Runtime-Input: y_Value  ,67   ,<Y_Var><R4><When><When><When>                      ,5  , 62, 63, 67, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Runtime-Input: Integer  ,68   ,<Int_Var><I2><When><When><When>                    ,5  , 57, 65, 67, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,    <Int_Var>,        Int 1,
+Code-Depend. Integer    ,70   ,<Int_Var><Oplist(3)><FileName><When><When><When>   ,5  , 57, 68, 59, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,    <Int_Var>,        Int 1,
+Code-Depend. Real       ,71   ,<Var><Oplist(3)><FileName><When><When><When>       ,6  , 62, 68, 69, 59, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,        <Var>,   Variable x,
+Code-Depend. String     ,72   ,<Text_Var><Oplist(3)><FileName><When><When><When>  ,6  , 57, 68, 69, 59, 60, 61,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Text_Var>,       Text 1,
+Scale-Fact.-Upd. ***    ,81   ,<Upd><Ch><Var><When>                               ,4  , 70, 29, 71, 12,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,        <Upd>,     <update>,

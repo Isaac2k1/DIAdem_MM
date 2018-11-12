@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<usi:tdm xmlns:usi="http://www.ni.com/Schemas/USI/1_0" version="1.0">
+
+  <usi:documentation>
+    <usi:exporter>National Instruments USI</usi:exporter>
+    <usi:exporterVersion>1.6</usi:exporterVersion>
+  </usi:documentation>
+
+  <usi:model modelName="National Instruments USI generated meta file" modelVersion="1.0">
+    <usi:include nsUri="http://www.ni.com/DataModels/DIAdem/View/2_1"/>
+  </usi:model>
+
+  <usi:include/>
+
+  <usi:data>
+    <COORDINATEDISPLAY id="usi1">
+      <name>CoordinateDisplayData</name>
+      <CoordX>874</CoordX>
+      <CoordY>42</CoordY>
+      <CoordVisible>1</CoordVisible>
+    </COORDINATEDISPLAY>
+    <SETTINGS id="usi2">
+      <name>ViewSettingData</name>
+      <PrinterMarginLeft>1</PrinterMarginLeft>
+      <PrinterMarginTop>1</PrinterMarginTop>
+      <PrinterMarginRight>1</PrinterMarginRight>
+      <PrinterMarginBottom>1</PrinterMarginBottom>
+      <PrinterRatio>1</PrinterRatio>
+    </SETTINGS>
+    <FONT id="usi3">
+      <name>Font</name>
+      <FaceName></FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>-1</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi4">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>8</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <SHEETS id="usi5">
+      <name>TabPageContData</name>
+      <ChannelSearchByName>1</ChannelSearchByName>
+      <LastPage>4</LastPage>
+      <Sheets>#xpointer(id("usi6"))</Sheets>
+    </SHEETS>
+    <SHEET id="usi6">
+      <name>Blatt 1</name>
+      <ChannelSearchByName>1</ChannelSearchByName>
+      <Areas>#xpointer(id("usi8"))</Areas>
+      <CursorMaster>#xpointer(id("usi7"))</CursorMaster>
+    </SHEET>
+    <CURSORMASTER id="usi7">
+      <name>CursorMasterData</name>
+      <CursorP1>2</CursorP1>
+      <CursorP2>1</CursorP2>
+      <CursorX1>0.0970273875135811</CursorX1>
+      <CursorY1>1</CursorY1>
+      <CursorX2>0.0969832517482518</CursorX2>
+      <CursorY2>0</CursorY2>
+      <Type>Frame</Type>
+      <Mode>GraphPoints</Mode>
+      <InterpolatingCursor>1</InterpolatingCursor>
+      <ConstantDeltas>0</ConstantDeltas>
+      <Speed>1</Speed>
+      <XRangeMode>Automatic</XRangeMode>
+      <XBegin>0</XBegin>
+      <XEnd>1</XEnd>
+    </CURSORMASTER>
+    <AREAS id="usi8">
+      <name>AreaObjectsContData</name>
+      <ActiveAreaName>Area : 2</ActiveAreaName>
+      <FirstSplitter>#xpointer(id("usi9"))</FirstSplitter>
+    </AREAS>
+    <SPLITTER id="usi9">
+      <name>AreaSplitterData</name>
+      <Direction>115</Direction>
+      <Ratio>0.234939759036145</Ratio>
+      <NextSplitter>#xpointer(id("usi10"))</NextSplitter>
+      <AreaObject>#xpointer(id("usi11"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi10">
+      <name>AreaSplitterData</name>
+      <Direction>100</Direction>
+      <Ratio>0.5</Ratio>
+      <AreaObject>#xpointer(id("usi12"))</AreaObject>
+    </SPLITTER>
+    <AREA id="usi11">
+      <name>Area : 1</name>
+      <DisplayTyp>0</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi35"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi13"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi12">
+      <name>Area : 2</name>
+      <DisplayTyp>1</DisplayTyp>
+      <IsActive>1</IsActive>
+      <DisplayObject>#xpointer(id("usi36"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi14"))</DisplayObjectShared>
+    </AREA>
+    <SHAREDDATA id="usi13">
+      <name>DisplayObjSharedData</name>
+      <SharedAttributeList>#xpointer(id("usi15") id("usi16") id("usi17") id("usi18"))</SharedAttributeList>
+      <SharedChannelList>#xpointer(id("usi24"))</SharedChannelList>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi14">
+      <name>DisplayObjSharedData</name>
+      <SharedAttributeList>#xpointer(id("usi19") id("usi20") id("usi21") id("usi22"))</SharedAttributeList>
+      <SharedChannelList>#xpointer(id("usi26") id("usi27") id("usi28") id("usi29") id("usi30") id("usi31") id("usi32") id("usi33"))</SharedChannelList>
+    </SHAREDDATA>
+    <SHAREDATTRIBUTEDATA id="usi15">
+      <name>name</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi16">
+      <name>unit_string</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi17">
+      <name>CursorY</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>2</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi18">
+      <name>CursorX</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>1</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi19">
+      <name>name</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi20">
+      <name>number</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi21">
+      <name>length</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi22">
+      <name>unit_string</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <VIEWMODULE id="usi23">
+      <name>ViewData</name>
+      <version>11.0.0f3436</version>
+      <ActiveTabIndex>0</ActiveTabIndex>
+      <CoordinateDisplay>#xpointer(id("usi1"))</CoordinateDisplay>
+      <Sheets>#xpointer(id("usi5"))</Sheets>
+      <Settings>#xpointer(id("usi2"))</Settings>
+      <EventNames>
+        <s>Cursor</s>
+        <s>ChangeSheet</s>
+        <s>ZoomedArea</s>
+      </EventNames>
+      <Events>
+        <s>TangentCursor</s>
+        <s></s>
+        <s></s>
+      </Events>
+    </VIEWMODULE>
+    <SHAREDCHANNELDATA id="usi24">
+      <name>Geschwindigkeit</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>__TangentCursor__/Y_TangentenCursor</KanalExtName>
+      <Kanalindex>22</Kanalindex>
+      <CurveName>Curve3</CurveName>
+      <CurveData>#xpointer(id("usi34"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi25">
+      <name>Zeit</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>__TangentCursor__/X_TangentenCursor</KanalExtName>
+      <Kanalindex>21</Kanalindex>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi26">
+      <name>VS</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[2]/VS</KanalExtName>
+      <Kanalindex>9</Kanalindex>
+      <CurveName>Curve1</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi27">
+      <name>Travel Drive</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[2]/Travel Drive</KanalExtName>
+      <Kanalindex>10</Kanalindex>
+      <CurveName>Curve2</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi28">
+      <name>Travel rot</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[2]/Travel rot</KanalExtName>
+      <Kanalindex>11</Kanalindex>
+      <CurveName>Curve3</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi29">
+      <name>U-Trip Coil C</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[2]/U-Trip Coil C</KanalExtName>
+      <Kanalindex>12</Kanalindex>
+      <CurveName>Curve4</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi30">
+      <name>U-Trip Coil O</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[2]/U-Trip Coil O</KanalExtName>
+      <Kanalindex>13</Kanalindex>
+      <CurveName>Curve5</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi31">
+      <name>CS-A</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[2]/CS-A</KanalExtName>
+      <Kanalindex>14</Kanalindex>
+      <CurveName>Curve6</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi32">
+      <name>CS-B</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[2]/CS-B</KanalExtName>
+      <Kanalindex>15</Kanalindex>
+      <CurveName>Curve7</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi33">
+      <name>CS-C</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[2]/CS-C</KanalExtName>
+      <Kanalindex>16</Kanalindex>
+      <CurveName>Curve8</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCURVEDATA id="usi34">
+      <name>2DCurveData</name>
+      <CurveColorByNr>2</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <MarkMode>1</MarkMode>
+      <MarkWidth>9</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi25"))</ReferenceChannel>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <TWODAXISOBJECTDATA id="usi35">
+      <name>2DCurveChartData</name>
+      <DisplayTyp>0</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>LEFT</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi3"))</Font>
+      <CurveList>0</CurveList>
+      <CurveSystem>1</CurveSystem>
+      <ActiveCurve>0</ActiveCurve>
+      <LegendWidth>-1</LegendWidth>
+      <Zooming>0</Zooming>
+      <Scrolling>0</Scrolling>
+      <DisplayX1>0.0969832517482518</DisplayX1>
+      <DisplayY1>0</DisplayY1>
+      <DisplayX2>0.0970273875135811</DisplayX2>
+      <DisplayY2>1</DisplayY2>
+      <YScalingBegin>-91.2295500920154</YScalingBegin>
+      <YScalingEnd>30.2432207155507</YScalingEnd>
+      <LastZoomMode>0</LastZoomMode>
+    </TWODAXISOBJECTDATA>
+    <CHANNELTABLEDATA id="usi36">
+      <name>ChannelTableData</name>
+      <DisplayTyp>1</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name>Tahoma</Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>8</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi4"))</Font>
+      <Active_Row>-6</Active_Row>
+      <Active_Column>1</Active_Column>
+      <Dynamic_Mode>1</Dynamic_Mode>
+      <Dynamic_Mode_Filter>__TangentCursor__</Dynamic_Mode_Filter>
+      <Row_Header_Width>13632</Row_Header_Width>
+    </CHANNELTABLEDATA>
+  </usi:data>
+
+</usi:tdm>

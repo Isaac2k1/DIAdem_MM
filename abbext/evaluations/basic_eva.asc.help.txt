@@ -1,0 +1,52 @@
+{'-----------------------------------------------------------------------------------------
+{'Dynamic Enumeration List File for Basic Evaluations
+{'
+{'Description:
+{'	There are 21 columns in this file
+{'	1st :	Name of the evaluation, used for dyn.enum.variable "basic_eva_nam_"
+{'	2nd : The index of the evaluation, used for dyn.enum.variable "basic_eva_ind_"
+{'	3rd : List of input and output parameters' variable types of the evaluation routine
+{'	4th : Total number of elements of the evaluation ( # of questions)
+{'	5th - 19th : Indexes of evaluation elements (max:15 elements)
+{'	20th: Variable type of the result of the evaluation
+{'	21th: Standart name of the result of the evaluation (which is offered to user in
+{'		dialogbox : "3.Modify an Equation"
+{'
+{'
+{'		"basic_eva_" and "basic_eva_ind_" global variables are used in dialog boxes of
+{'		evaluations menu
+{'
+{'Note: Do not use Tab character between the evaluation name and index
+{'it results in illegible characters in the "Add an evaluation window"
+{'-----------------------------------------------------------------------------------------
+{'
+==== Cancel ====        ,0    ,3                                                                                ,4  ,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,           20,           21,
+Sign.-Arise-Time        ,1    ,<Time_Var><Time_Var><Time_Var><Ch><R4><L><When><When><When>                      ,9  ,  1,  5,  6,  7, 10, 11, 12, 13, 14,   ,   ,   ,   ,   ,   ,   <Time_Var>,        T-New,
+Level-Cross-Time        ,2    ,<Time_Var><Time_Var><Time_Var><Ch><Y_Var><I2><R4><L><When><When><When>           ,11 ,  1,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14,   ,   ,   ,   ,   <Time_Var>,        T-New,
+Y Values of Time        ,3    ,<Y_Var><Time_Var><Ch><OpList(3)><I2><L><When><When><When>                        ,9  ,  2, 15,  7, 16, 17, 11, 12, 13, 14,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Extremum: t-Val.        ,4    ,<Time_Var><Time_Var><Time_Var><Ch><OpList(7)><R4><I2><L><When><When><When>       ,11 ,  1,  5,  6,  7, 18, 10, 17, 11, 12, 13, 14,   ,   ,   ,   ,   <Time_Var>,        T-New,
+Extremum: y-Val.        ,5    ,<Y_Var><Time_Var><Time_Var><Ch><OpList(7)><R4><I2><L><When><When><When>          ,11 ,  2,  5,  6,  7, 18, 10, 17, 11, 12, 13, 14,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Max Rate-of-Rise ***    ,6    ,<Y_Var><Time_Var><Time_Var><Ch><T8><L><When><When><When>                         ,9  ,  2,  5,  6,  7, 19, 11, 12, 13, 14,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Slope-Of-Secant.        ,7    ,<Y_Var><Time_Var><Time_Var><Ch><L><When><When><When>                             ,8  ,  2, 20, 21,  7, 11, 12, 13, 14,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Slope-Of-Tangent        ,8    ,<Y_Var><Time_Var><Time_Var><Ch><Time_Var><OpList(5)><L><R4><L><When><When><When> ,12 ,  2,  5,  6,  7, 23, 22, 24, 10, 11, 12, 13, 14,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Regr.-Line-Slope        ,9    ,<Y_Var><Time_Var><Time_Var><Ch><OpList(4)><L><When><When><When>                  ,9  ,  2,  5,  6,  7, 25, 11, 12, 13, 14,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Regr.-Line-Y_Cut        ,10   ,<Y_Var><Time_Var><Time_Var><Ch><OpList(4)><L><When><When><When>                  ,9  ,  2,  5,  6,  7, 25, 11, 12, 13, 14,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Regr.-Line-Corr.        ,11   ,<Y_Var><Time_Var><Time_Var><Ch><OpList(4)><L><When><When><When>                  ,9  ,  2,  5,  6,  7, 25, 11, 12, 13, 14,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Plateau: y-Value        ,12   ,<Y_Var><Time_Var><Time_Var><Ch><I2><R4><L><When><When><When>                     ,10 ,  2,  5,  6,  7, 26, 10, 11, 12, 13, 14,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Average -- Value        ,13   ,<Y_Var><Time_Var><Time_Var><Ch><L><When><When><When>                             ,8  ,  2,  5,  6,  7, 11, 12, 13, 14,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Effective--Value        ,14   ,<Y_Var><Time_Var><Time_Var><Ch><L><When><When><When>                             ,8  ,  2,  5,  6,  7, 11, 12, 13, 14,   ,   ,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Integral - Value        ,15   ,<Y_Var><Time_Var><Time_Var><Ch><OpList(3)><R4><L><When><When><When>              ,10 ,  2,  5,  6,  7, 27, 28, 11, 12, 13, 14,   ,   ,   ,   ,   ,      <Y_Var>,   Y-Variable,
+Chn-Differential        ,31   ,<Ch><Time_Var><Time_Var><Ch><OpList(2)><OpList(3)><I2><When>                     ,8  ,  4,  5,  6, 29, 30, 31, 35, 12,   ,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+Channel-Integral        ,32   ,<Ch><Time_Var><Time_Var><Ch><OpList(3)><R4><Y_Var><When>                         ,8  ,  4,  5,  6, 29, 32, 28, 33, 12,   ,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+Recal.with Table ***    ,33   ,<Ch><Time_Var><Time_Var><Ch><FileName><When>                                     ,6  ,  4,  5,  6, 29, 34, 12,   ,   ,   ,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+ChannelSmoothing        ,34   ,<Ch><Time_Var><Time_Var><Ch><OpList(3)><I2><When>                                ,7  ,  4,  5,  6, 29, 31, 35, 12,   ,   ,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+Remove - Outlier ***    ,35   ,<Ch><Time_Var><Time_Var><Ch><When>                                               ,5  ,  4,  5,  6, 29, 12,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+Two-Channel-Math        ,36   ,<Ch><Time_Var><Time_Var><Ch><Oplist(4)><Ch><L><When>                             ,8  ,  4,  5,  6, 36, 37, 38, 39, 12,   ,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+One-Channel-Math        ,37   ,<Ch><Time_Var><Time_Var><Ch><Oplist(8)><Var><When><Character>                    ,8  ,  4,  5,  6, 29, 40, 41, 12, 42,   ,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+FourierTransform        ,38   ,<Ch><Time_Var><Time_Var><Ch><Oplist(3)><Y_Var><Y_Var><I2><When>                  ,9  ,  4,  5,  6, 43, 44, 45, 46, 47, 12,   ,   ,   ,   ,   ,   ,         <Ch>,    SW_Chan 1,
+Two-Var-Mathemat        ,51   ,<Var><Var><OpList(14)><Var><When><When><When><Character>                         ,8  ,  3, 48, 49, 50, 12, 13, 14, 51,   ,   ,   ,   ,   ,   ,   ,        <Var>,   Variable x,
+One-Var-Mathemat        ,52   ,<Var><OpList(15)><Var><When><When><When><Character>                              ,7  ,  3, 52, 53, 12, 13, 14, 54,   ,   ,   ,   ,   ,   ,   ,   ,        <Var>,   Variable x,
+Result-Comments         ,60   ,<Text_Var><Var><FileName><When><When><When>                                      ,6  ,  1, 55, 56, 12, 13, 14,   ,   ,   ,   ,   ,   ,   ,   ,   ,   <Text_Var>,       Text 1,
+Example1                ,61   ,                                                                                 ,4  ,  1, 36, 37, 38,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,         <Ch>,             ,
+Example2                ,62   ,                                                                                 ,4  ,  1,  7, 57, 58,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,             ,             ,
+Example3                ,63   ,                                                                                 ,4  ,  1,  7, 59, 60,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,   ,             ,             ,

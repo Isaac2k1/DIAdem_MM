@@ -1,0 +1,1 @@
+Copy Files (Load_Test.SUD and Shot.vbs) to the following folder: C:\DIAdem\abbext\LoadTest

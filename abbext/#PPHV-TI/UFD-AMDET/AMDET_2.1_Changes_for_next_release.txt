@@ -1,0 +1,42 @@
+AMDET_2.1
+
+The configuration variables from for the channel names typically has the channel name how it is stored in the lab.
+Due to the time delay script of the laser measurement script, the measurement channels will be renamed.
+Therefore the variables inside of the AMDET script are not right anymore and the script didnt work.
+
+--> done
+
+
+
+Channel conversion from waveform to numeric
+Old system, data is stored with A_generated
+new system is AB_generated
+
+Only fixed for the new shots.
+Need to be programmes more failsafe for both systems.
+
+Scan function.
+Depends on Channel, it can be both. A_generated or AB_generated.
+
+
+Set Waveform X Name? That i can control the channel!
+
+--> done
+
+
+New measurement system, saves all data at the end with a 0.
+Due to this, some details in the script doenst work.
+
+1) delete the last points, if there are exact 0
+2) set the points which are 0 to the value before
+3) ignore the last points.
+
+--> done
+
+
+
+No info about that i changed the settings automatically
+
+smoothing with strange offset corrction
+
+

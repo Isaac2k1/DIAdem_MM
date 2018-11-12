@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<usi:tdm xmlns:usi="http://www.ni.com/Schemas/USI/1_0" version="1.0">
+
+  <usi:documentation>
+    <usi:exporter>National Instruments USI</usi:exporter>
+    <usi:exporterVersion>1.7</usi:exporterVersion>
+  </usi:documentation>
+
+  <usi:model modelName="National Instruments USI generated meta file" modelVersion="1.0">
+    <usi:include nsUri="http://www.ni.com/DataModels/DIAdem/View/2_2"/>
+  </usi:model>
+
+  <usi:include/>
+
+  <usi:data>
+    <COORDINATEDISPLAY id="usi1">
+      <name>CoordinateDisplayData</name>
+      <CoordX>-613</CoordX>
+      <CoordY>399</CoordY>
+      <CoordVisible>0</CoordVisible>
+      <CoordWidth>206</CoordWidth>
+      <CoordHeight>271</CoordHeight>
+    </COORDINATEDISPLAY>
+    <SETTINGS id="usi2">
+      <name>ViewSettingData</name>
+      <PrinterMarginLeft>1</PrinterMarginLeft>
+      <PrinterMarginTop>1</PrinterMarginTop>
+      <PrinterMarginRight>1</PrinterMarginRight>
+      <PrinterMarginBottom>1</PrinterMarginBottom>
+      <PrinterRatio>1</PrinterRatio>
+    </SETTINGS>
+    <COLOR id="usi3">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi4">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi5">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi6">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi7">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi8">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi9">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi10">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi11">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi12">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi13">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi14">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi15">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi16">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi17">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi18">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi19">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi20">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi21">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi22">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi23">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi24">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <COLOR id="usi25">
+      <name>COLOR</name>
+      <No>17</No>
+      <RGB>15659250</RGB>
+    </COLOR>
+    <COLOR id="usi26">
+      <name>COLOR</name>
+      <No>1</No>
+      <RGB>0</RGB>
+    </COLOR>
+    <FONT id="usi27">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>1</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>25</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi28">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>1</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>20</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi29">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>16</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi30">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>1</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>20</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi31">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>16</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi32">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>1</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>20</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi33">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>16</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi34">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>1</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>20</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi35">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>16</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi36">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>1</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>20</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi37">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>16</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi38">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>8</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi39">
+      <name>Font</name>
+      <FaceName>Tahoma</FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>20</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <FONT id="usi40">
+      <name>Font</name>
+      <FaceName></FaceName>
+      <Weight>0</Weight>
+      <Italic>0</Italic>
+      <Underline>0</Underline>
+      <StrikeOut>0</StrikeOut>
+      <Frame>0</Frame>
+      <Clip>0</Clip>
+      <Size>-1</Size>
+      <Angle>0</Angle>
+      <CharSet>-1</CharSet>
+      <PitchAndFamily>-1</PitchAndFamily>
+    </FONT>
+    <DIMENSIONENTRY id="usi41">
+      <name>X-Cursor</name>
+      <Value2>0</Value2>
+    </DIMENSIONENTRY>
+    <DIMENSIONENTRY id="usi42">
+      <name>Y-Cursor</name>
+      <Value2>0</Value2>
+    </DIMENSIONENTRY>
+    <DIMENSIONENTRY id="usi43">
+      <name>Z-Cursor</name>
+      <Value2>0</Value2>
+    </DIMENSIONENTRY>
+    <DIMENSIONENTRY id="usi44">
+      <name>X-Cursor</name>
+      <Value2>0</Value2>
+    </DIMENSIONENTRY>
+    <DIMENSIONENTRY id="usi45">
+      <name>Y-Cursor</name>
+      <Value2>0</Value2>
+    </DIMENSIONENTRY>
+    <DIMENSIONENTRY id="usi46">
+      <name>Z-Cursor</name>
+      <Value2>0</Value2>
+    </DIMENSIONENTRY>
+    <DIMENSIONENTRY id="usi47">
+      <name>X-Cursor</name>
+      <Value1>0.1158</Value1>
+      <Value2>0.12946</Value2>
+    </DIMENSIONENTRY>
+    <DIMENSIONENTRY id="usi48">
+      <name>Y-Cursor</name>
+      <Value1>-0.0152752876863955</Value1>
+      <Value2>-0.0217021774459698</Value2>
+    </DIMENSIONENTRY>
+    <DIMENSIONENTRY id="usi49">
+      <name>Z-Cursor</name>
+      <Value2>0</Value2>
+    </DIMENSIONENTRY>
+    <SHEETS id="usi50">
+      <name>TabPageContData</name>
+      <ChannelSearchByName>1</ChannelSearchByName>
+      <LastPage>17</LastPage>
+      <Sheets>#xpointer(id("usi51") id("usi52") id("usi53"))</Sheets>
+    </SHEETS>
+    <SHEET id="usi51">
+      <name>Meta</name>
+      <ChannelSearchByName>1</ChannelSearchByName>
+      <Areas>#xpointer(id("usi57"))</Areas>
+      <CursorMaster>#xpointer(id("usi54"))</CursorMaster>
+    </SHEET>
+    <SHEET id="usi52">
+      <name>Tabelle</name>
+      <ChannelSearchByName>1</ChannelSearchByName>
+      <Areas>#xpointer(id("usi58"))</Areas>
+      <CursorMaster>#xpointer(id("usi55"))</CursorMaster>
+    </SHEET>
+    <SHEET id="usi53">
+      <name>Master</name>
+      <ChannelSearchByName>1</ChannelSearchByName>
+      <Areas>#xpointer(id("usi59"))</Areas>
+      <CursorMaster>#xpointer(id("usi56"))</CursorMaster>
+    </SHEET>
+    <CURSORMASTER id="usi54">
+      <name>CursorMasterData</name>
+      <CursorP1>0</CursorP1>
+      <CursorP2>0</CursorP2>
+      <CursorX1>0</CursorX1>
+      <CursorY1>0</CursorY1>
+      <CursorX2>0</CursorX2>
+      <CursorY2>0</CursorY2>
+      <Type>Crosshair</Type>
+      <Mode>arbitrary</Mode>
+      <InterpolatingCursor>1</InterpolatingCursor>
+      <Speed>1</Speed>
+      <XRangeMode>Automatic</XRangeMode>
+      <XBegin>0</XBegin>
+      <XEnd>1</XEnd>
+      <Dimensions>#xpointer(id("usi41") id("usi42") id("usi43"))</Dimensions>
+    </CURSORMASTER>
+    <CURSORMASTER id="usi55">
+      <name>CursorMasterData</name>
+      <CursorP1>0</CursorP1>
+      <CursorP2>0</CursorP2>
+      <CursorX1>0</CursorX1>
+      <CursorY1>0</CursorY1>
+      <CursorX2>0</CursorX2>
+      <CursorY2>0</CursorY2>
+      <Type>Crosshair</Type>
+      <Mode>arbitrary</Mode>
+      <InterpolatingCursor>1</InterpolatingCursor>
+      <Speed>1</Speed>
+      <XRangeMode>Automatic</XRangeMode>
+      <XBegin>0</XBegin>
+      <XEnd>1</XEnd>
+      <Dimensions>#xpointer(id("usi44") id("usi45") id("usi46"))</Dimensions>
+    </CURSORMASTER>
+    <CURSORMASTER id="usi56">
+      <name>CursorMasterData</name>
+      <CursorP1>2316</CursorP1>
+      <CursorP2>0</CursorP2>
+      <CursorX1>0</CursorX1>
+      <CursorY1>0</CursorY1>
+      <CursorX2>0</CursorX2>
+      <CursorY2>0</CursorY2>
+      <Type>Band</Type>
+      <Mode>GraphMaxima</Mode>
+      <InterpolatingCursor>1</InterpolatingCursor>
+      <Speed>1</Speed>
+      <XRangeMode>Automatic</XRangeMode>
+      <XBegin>0</XBegin>
+      <XEnd>1</XEnd>
+      <Dimensions>#xpointer(id("usi47") id("usi48") id("usi49"))</Dimensions>
+    </CURSORMASTER>
+    <AREAS id="usi57">
+      <name>AreaObjectsContData</name>
+      <ActiveAreaName>Area : 11</ActiveAreaName>
+      <FirstSplitter>#xpointer(id("usi60"))</FirstSplitter>
+    </AREAS>
+    <AREAS id="usi58">
+      <name>AreaObjectsContData</name>
+      <ActiveAreaName>Area : 1</ActiveAreaName>
+      <FirstSplitter>#xpointer(id("usi80"))</FirstSplitter>
+    </AREAS>
+    <AREAS id="usi59">
+      <name>AreaObjectsContData</name>
+      <ActiveAreaName>Area : 2</ActiveAreaName>
+      <FirstSplitter>#xpointer(id("usi81"))</FirstSplitter>
+    </AREAS>
+    <SPLITTER id="usi60">
+      <name>AreaSplitterData</name>
+      <Direction>115</Direction>
+      <Ratio>0.942157953281424</Ratio>
+      <NextSplitter>#xpointer(id("usi61"))</NextSplitter>
+      <AreaObject>#xpointer(id("usi85"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi61">
+      <name>AreaSplitterData</name>
+      <Direction>100</Direction>
+      <Ratio>0.5</Ratio>
+      <NextSplitter>#xpointer(id("usi70"))</NextSplitter>
+      <CenterSplitter>#xpointer(id("usi62"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi62">
+      <name>AreaSplitterData</name>
+      <Direction>110</Direction>
+      <Ratio>0.592636579572447</Ratio>
+      <NextSplitter>#xpointer(id("usi63"))</NextSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi63">
+      <name>AreaSplitterData</name>
+      <Direction>125</Direction>
+      <Ratio>-1</Ratio>
+      <CenterSplitter>#xpointer(id("usi64"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi64">
+      <name>AreaSplitterData</name>
+      <Direction>110</Direction>
+      <Ratio>0.546318289786223</Ratio>
+      <NextSplitter>#xpointer(id("usi69"))</NextSplitter>
+      <CenterSplitter>#xpointer(id("usi65"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi65">
+      <name>AreaSplitterData</name>
+      <Direction>110</Direction>
+      <Ratio>0.116402116402116</Ratio>
+      <NextSplitter>#xpointer(id("usi68"))</NextSplitter>
+      <CenterSplitter>#xpointer(id("usi66"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi66">
+      <name>AreaSplitterData</name>
+      <Direction>110</Direction>
+      <Ratio>0.878048780487805</Ratio>
+      <NextSplitter>#xpointer(id("usi67"))</NextSplitter>
+      <AreaObject>#xpointer(id("usi86"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi67">
+      <name>AreaSplitterData</name>
+      <Direction>125</Direction>
+      <Ratio>-1</Ratio>
+      <AreaObject>#xpointer(id("usi87"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi68">
+      <name>AreaSplitterData</name>
+      <Direction>125</Direction>
+      <Ratio>-1</Ratio>
+      <AreaObject>#xpointer(id("usi88"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi69">
+      <name>AreaSplitterData</name>
+      <Direction>125</Direction>
+      <Ratio>-1</Ratio>
+      <AreaObject>#xpointer(id("usi89"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi70">
+      <name>AreaSplitterData</name>
+      <Direction>100</Direction>
+      <Ratio>0.5</Ratio>
+      <CenterSplitter>#xpointer(id("usi71"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi71">
+      <name>AreaSplitterData</name>
+      <Direction>110</Direction>
+      <Ratio>0.548996458087367</Ratio>
+      <NextSplitter>#xpointer(id("usi76"))</NextSplitter>
+      <CenterSplitter>#xpointer(id("usi72"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi72">
+      <name>AreaSplitterData</name>
+      <Direction>110</Direction>
+      <Ratio>0.111702127659574</Ratio>
+      <NextSplitter>#xpointer(id("usi75"))</NextSplitter>
+      <CenterSplitter>#xpointer(id("usi73"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi73">
+      <name>AreaSplitterData</name>
+      <Direction>110</Direction>
+      <Ratio>0.88109756097561</Ratio>
+      <NextSplitter>#xpointer(id("usi74"))</NextSplitter>
+      <AreaObject>#xpointer(id("usi90"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi74">
+      <name>AreaSplitterData</name>
+      <Direction>125</Direction>
+      <Ratio>-1</Ratio>
+      <AreaObject>#xpointer(id("usi91"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi75">
+      <name>AreaSplitterData</name>
+      <Direction>125</Direction>
+      <Ratio>-1</Ratio>
+      <AreaObject>#xpointer(id("usi92"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi76">
+      <name>AreaSplitterData</name>
+      <Direction>115</Direction>
+      <Ratio>0.453159041394335</Ratio>
+      <NextSplitter>#xpointer(id("usi79"))</NextSplitter>
+      <CenterSplitter>#xpointer(id("usi77"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi77">
+      <name>AreaSplitterData</name>
+      <Direction>115</Direction>
+      <Ratio>0.210045662100457</Ratio>
+      <NextSplitter>#xpointer(id("usi78"))</NextSplitter>
+      <AreaObject>#xpointer(id("usi93"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi78">
+      <name>AreaSplitterData</name>
+      <Direction>115</Direction>
+      <Ratio>0.5</Ratio>
+      <AreaObject>#xpointer(id("usi94"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi79">
+      <name>AreaSplitterData</name>
+      <Direction>115</Direction>
+      <Ratio>0.5</Ratio>
+      <AreaObject>#xpointer(id("usi95"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi80">
+      <name>AreaSplitterData</name>
+      <Direction>125</Direction>
+      <Ratio>-1</Ratio>
+      <AreaObject>#xpointer(id("usi96"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi81">
+      <name>AreaSplitterData</name>
+      <Direction>125</Direction>
+      <Ratio>-1</Ratio>
+      <CenterSplitter>#xpointer(id("usi82"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi82">
+      <name>AreaSplitterData</name>
+      <Direction>110</Direction>
+      <Ratio>0.733186328555678</Ratio>
+      <CenterSplitter>#xpointer(id("usi83"))</CenterSplitter>
+    </SPLITTER>
+    <SPLITTER id="usi83">
+      <name>AreaSplitterData</name>
+      <Direction>115</Direction>
+      <Ratio>0.950276243093923</Ratio>
+      <NextSplitter>#xpointer(id("usi84"))</NextSplitter>
+      <AreaObject>#xpointer(id("usi97"))</AreaObject>
+    </SPLITTER>
+    <SPLITTER id="usi84">
+      <name>AreaSplitterData</name>
+      <Direction>115</Direction>
+      <Ratio>0.5</Ratio>
+      <AreaObject>#xpointer(id("usi98"))</AreaObject>
+    </SPLITTER>
+    <AREA id="usi85">
+      <name>Area : 1</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi151"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi99"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi86">
+      <name>Area : 13</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi152"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi100"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi87">
+      <name>Area : 7</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi153"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi101"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi88">
+      <name>Area : 6</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi154"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi102"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi89">
+      <name>Area : 2</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi155"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi103"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi90">
+      <name>Area : 10</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi156"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi104"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi91">
+      <name>Area : 9</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi157"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi105"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi92">
+      <name>Area : 8</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi158"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi106"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi93">
+      <name>Area : 3</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi159"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi107"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi94">
+      <name>Area : 12</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi160"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi108"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi95">
+      <name>Area : 11</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>1</IsActive>
+      <DisplayObject>#xpointer(id("usi161"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi109"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi96">
+      <name>Area : 1</name>
+      <DisplayTyp>1</DisplayTyp>
+      <IsActive>1</IsActive>
+      <DisplayObject>#xpointer(id("usi150"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi110"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi97">
+      <name>Area : 4</name>
+      <DisplayTyp>2</DisplayTyp>
+      <IsActive>0</IsActive>
+      <DisplayObject>#xpointer(id("usi162"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi111"))</DisplayObjectShared>
+    </AREA>
+    <AREA id="usi98">
+      <name>Area : 2</name>
+      <DisplayTyp>0</DisplayTyp>
+      <IsActive>1</IsActive>
+      <DisplayObject>#xpointer(id("usi149"))</DisplayObject>
+      <DisplayObjectShared>#xpointer(id("usi112"))</DisplayObjectShared>
+    </AREA>
+    <SHAREDDATA id="usi99">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi100">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi101">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi102">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi103">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi104">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi105">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi106">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi107">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi108">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi109">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi110">
+      <name>DisplayObjSharedData</name>
+      <SharedAttributeList>#xpointer(id("usi140") id("usi141") id("usi142") id("usi143"))</SharedAttributeList>
+      <SharedChannelList>#xpointer(id("usi113") id("usi114") id("usi115") id("usi116") id("usi117") id("usi118") id("usi119") id("usi120") id("usi121") id("usi122") id("usi123") id("usi124"))</SharedChannelList>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi111">
+      <name>DisplayObjSharedData</name>
+    </SHAREDDATA>
+    <SHAREDDATA id="usi112">
+      <name>DisplayObjSharedData</name>
+      <SharedAttributeList>#xpointer(id("usi144") id("usi145") id("usi146") id("usi147"))</SharedAttributeList>
+      <SharedChannelList>#xpointer(id("usi125") id("usi127") id("usi129") id("usi131") id("usi133"))</SharedChannelList>
+    </SHAREDDATA>
+    <SHAREDCHANNELDATA id="usi113">
+      <name>VS</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/VS</KanalExtName>
+      <Kanalindex>1</Kanalindex>
+      <CurveName>Curve1</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi114">
+      <name>Travel Rot-A</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/Travel Rot-A</KanalExtName>
+      <Kanalindex>2</Kanalindex>
+      <CurveName>Curve2</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi115">
+      <name>Travel Rot-C</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/Travel Rot-C</KanalExtName>
+      <Kanalindex>3</Kanalindex>
+      <CurveName>Curve3</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi116">
+      <name>P-Heiz</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/P-Heiz</KanalExtName>
+      <Kanalindex>4</Kanalindex>
+      <CurveName>Curve4</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi117">
+      <name>P-Komp</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/P-Komp</KanalExtName>
+      <Kanalindex>5</Kanalindex>
+      <CurveName>Curve5</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi118">
+      <name>P-AK-Traeger</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/P-AK-Traeger</KanalExtName>
+      <Kanalindex>6</Kanalindex>
+      <CurveName>Curve6</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi119">
+      <name>P-FK-Traeger</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/P-FK-Traeger</KanalExtName>
+      <Kanalindex>7</Kanalindex>
+      <CurveName>Curve7</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi120">
+      <name>P-FK-Deckel</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/P-FK-Deckel</KanalExtName>
+      <Kanalindex>8</Kanalindex>
+      <CurveName>Curve8</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi121">
+      <name>P-Erdisol.</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/P-Erdisol.</KanalExtName>
+      <Kanalindex>9</Kanalindex>
+      <CurveName>Curve9</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi122">
+      <name>U-Tripp C</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/U-Tripp C</KanalExtName>
+      <Kanalindex>10</Kanalindex>
+      <CurveName>Curve10</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi123">
+      <name>U-Tripp O</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/U-Tripp O</KanalExtName>
+      <Kanalindex>11</Kanalindex>
+      <CurveName>Curve11</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi124">
+      <name>CS-C</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/CS-C</KanalExtName>
+      <Kanalindex>12</Kanalindex>
+      <CurveName>Curve12</CurveName>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi125">
+      <name>VS</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/VS</KanalExtName>
+      <Kanalindex>1</Kanalindex>
+      <CurveName>Curve1</CurveName>
+      <CurveType>1</CurveType>
+      <CurveData>#xpointer(id("usi135"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi126">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi127">
+      <name>CS</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/CS</KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName>Curve2</CurveName>
+      <CurveType>1</CurveType>
+      <CurveData>#xpointer(id("usi136"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi128">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi129">
+      <name>Travel Drive</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/Travel Drive</KanalExtName>
+      <Kanalindex>0</Kanalindex>
+      <CurveName>Curve3</CurveName>
+      <CurveType>1</CurveType>
+      <CurveData>#xpointer(id("usi137"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi130">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi131">
+      <name>U-Tripp C</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/U-Tripp C</KanalExtName>
+      <Kanalindex>10</Kanalindex>
+      <CurveName>Curve4</CurveName>
+      <CurveType>1</CurveType>
+      <CurveData>#xpointer(id("usi138"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi132">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi133">
+      <name>U-Tripp O</name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName>[1]/U-Tripp O</KanalExtName>
+      <Kanalindex>11</Kanalindex>
+      <CurveName>Curve6</CurveName>
+      <CurveType>1</CurveType>
+      <CurveData>#xpointer(id("usi139"))</CurveData>
+    </SHAREDCHANNELDATA>
+    <SHAREDCHANNELDATA id="usi134">
+      <name></name>
+      <Format></Format>
+      <ColWidth>-1</ColWidth>
+      <KanalExtName></KanalExtName>
+      <Kanalindex>0</Kanalindex>
+    </SHAREDCHANNELDATA>
+    <SHAREDCURVEDATA id="usi135">
+      <name>2DCurveData</name>
+      <CurveColorByNr>2</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi126"))</ReferenceChannel>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi136">
+      <name>2DCurveData</name>
+      <CurveColorByNr>3</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi128"))</ReferenceChannel>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi137">
+      <name>2DCurveData</name>
+      <CurveColorByNr>4</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi130"))</ReferenceChannel>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi138">
+      <name>2DCurveData</name>
+      <CurveColorByNr>5</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi132"))</ReferenceChannel>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDCURVEDATA id="usi139">
+      <name>2DCurveData</name>
+      <CurveColorByNr>7</CurveColorByNr>
+      <CurveColorByColorRef>0</CurveColorByColorRef>
+      <MarkMode>0</MarkMode>
+      <MarkWidth>0</MarkWidth>
+      <MarkSize>1</MarkSize>
+      <MarkColor>1</MarkColor>
+      <MarkFillColor>0</MarkFillColor>
+      <MarkRMode>2</MarkRMode>
+      <MarkNType>100</MarkNType>
+      <MarkBType>0</MarkBType>
+      <MarkEType>0</MarkEType>
+      <MarkColorAuto>1</MarkColorAuto>
+      <MarkFillColorAuto>0</MarkFillColorAuto>
+      <ReferenceChannel>#xpointer(id("usi134"))</ReferenceChannel>
+      <MarkRType>10</MarkRType>
+    </SHAREDCURVEDATA>
+    <SHAREDATTRIBUTEDATA id="usi140">
+      <name>name</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi141">
+      <name>number</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi142">
+      <name>length</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi143">
+      <name>unit_string</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi144">
+      <name>name</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi145">
+      <name>unit_string</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>0</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi146">
+      <name>CursorY</name>
+      <Format>d.ddd</Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>2</Type>
+    </SHAREDATTRIBUTEDATA>
+    <SHAREDATTRIBUTEDATA id="usi147">
+      <name>CursorX</name>
+      <Format></Format>
+      <Title></Title>
+      <ColWidth>-1</ColWidth>
+      <Type>1</Type>
+    </SHAREDATTRIBUTEDATA>
+    <VIEWMODULE id="usi148">
+      <name>ViewData</name>
+      <version>11.1.0f3806</version>
+      <ActiveTabIndex>0</ActiveTabIndex>
+      <CoordinateDisplay>#xpointer(id("usi1"))</CoordinateDisplay>
+      <Sheets>#xpointer(id("usi50"))</Sheets>
+      <Settings>#xpointer(id("usi2"))</Settings>
+      <EventNames>
+        <s>Cursor</s>
+        <s>ChangeSheet</s>
+        <s>ZoomedArea</s>
+      </EventNames>
+      <Events>
+        <s></s>
+        <s></s>
+        <s></s>
+      </Events>
+    </VIEWMODULE>
+    <TWODAXISOBJECTDATA id="usi149">
+      <name>2DCurveChartData</name>
+      <DisplayTyp>0</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi40"))</Font>
+      <CurveList>0 1 2 3 5</CurveList>
+      <CurveSystem>3</CurveSystem>
+      <ActiveCurve>0</ActiveCurve>
+      <LegendWidth>15904</LegendWidth>
+      <Zooming>0</Zooming>
+      <Scrolling>0</Scrolling>
+      <DisplayX1>5e-05</DisplayX1>
+      <DisplayY1>-0.0213854027609539</DisplayY1>
+      <DisplayX2>0.58</DisplayX2>
+      <DisplayY2>-0.00672112658201396</DisplayY2>
+      <LastZoomMode>0</LastZoomMode>
+      <AxisLabeling>1</AxisLabeling>
+      <Dimension1Name>X-Cursor</Dimension1Name>
+      <Dimension2Name>Y-Cursor</Dimension2Name>
+    </TWODAXISOBJECTDATA>
+    <CHANNELTABLEDATA id="usi150">
+      <name>ChannelTableData</name>
+      <DisplayTyp>1</DisplayTyp>
+      <Global_Data_Format>d.ddd</Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name>Tahoma</Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>8</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi38"))</Font>
+      <Active_Row>6</Active_Row>
+      <Active_Column>-1</Active_Column>
+      <Dynamic_Mode>2</Dynamic_Mode>
+      <Row_Header_Width>3692</Row_Header_Width>
+    </CHANNELTABLEDATA>
+    <TEXTBOXDATA id="usi151">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi27"))</Font>
+      <Text>ABB TEST @@Data.Root.ChannelGroups(1).Properties("description").Value@@ (@@Data.Root.ChannelGroups(1).Properties("TESTING_CODE").Value@@ @@Data.Root.ChannelGroups(1).Properties("CYCLE_CODE").Value@@-OPERATION)</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi4"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi3"))</BackgroundColor>
+      <Alignment>Center</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi152">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi28"))</Font>
+      <Text>ALLGEMEINE INFOS:</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi6"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi5"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi153">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi29"))</Font>
+      <Text>VERSUCHS_BEZ:	@@Data.Root.ChannelGroups(1).Properties("VERSUCHS_BEZ_").Value@@&#xD;
+PRUEFKR_ID:	@@Data.Root.ChannelGroups(1).Properties("PRUEFKR_ID").Value@@&#xD;
+&#xD;
+ANLAGE_ING:	@@Data.Root.ChannelGroups(1).Properties("ANLAGE_ING_").Value@@&#xD;
+PRUEFZELLE:	@@Data.Root.ChannelGroups(1).Properties("PRUEFZELLE").Value@@&#xD;
+STEUERPLATZ:	@@Data.Root.ChannelGroups(1).Properties("STEUERPLATZ").Value@@&#xD;
+&#xD;
+DATE:		@@Data.Root.ChannelGroups(1).Properties("DATE").Value@@ &#xD;
+TIME:		@@Data.Root.ChannelGroups(1).Properties("TIME").Value@@&#xD;
+ &#xD;
+TESTING_CODE:	@@Data.Root.ChannelGroups(1).Properties("TESTING_CODE").Value@@ &#xD;
+CYCLE_CODE:	@@Data.Root.ChannelGroups(1).Properties("CYCLE_CODE").Value@@&#xD;
+CIRCUIT_CODE:	@@Data.Root.ChannelGroups(1).Properties("CIRCUIT_CODE").Value@@&#xD;
+BEMERKUNG: 	@@Data.Root.ChannelGroups(1).Properties("BEMERKUNG").Value@@ &#xD;
+</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi8"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi7"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi154">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi30"))</Font>
+      <Text>MESSUNG:</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi10"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi9"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi155">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi31"))</Font>
+      <Text>EIGENZEIT__C: 	@@Str(Data.Root.ChannelGroups(1).Properties("EIGENZEIT__C___MS__").Value,"AutoAdj")@@	ms &#xD;
+EIGENZEIT_1_O:	@@Str(Data.Root.ChannelGroups(1).Properties("EIGENZEIT_1_O__MS__").Value,"AutoAdj")@@	ms &#xD;
+EIGENZEIT_2_O: 	@@Str(Data.Root.ChannelGroups(1).Properties("EIGENZEIT_2_O__MS__").Value,"AutoAdj")@@	ms&#xD;
+  &#xD;
+TRIP_MEAS_C: 	@@Str(Data.Root.ChannelGroups(1).Properties("TRIP_MEAS_C__V__").Value,"AutoAdj")@@	V &#xD;
+TRIP_MEAS_O: 	@@Str(Data.Root.ChannelGroups(1).Properties("TRIP_MEAS_O__V__").Value,"AutoAdj")@@	V &#xD;
+TRIP_PERCENT_C:	@@Str(Data.Root.ChannelGroups(1).Properties("TRIP_PERCENT_C_____").Value,"AutoAdj")@@	%&#xD;
+TRIP_PERCENT_O:	@@Str(Data.Root.ChannelGroups(1).Properties("TRIP_PERCENT_O_____").Value,"AutoAdj")@@	% &#xD;
+&#xD;
+V_N1_N2__C: 	@@Str(Data.Root.ChannelGroups(1).Properties("V_N1_N2__C___M_S__").Value,"AutoAdj")@@	m/s &#xD;
+V_N1_N2_1_O: 	@@Str(Data.Root.ChannelGroups(1).Properties("V_N1_N2_1_O__M_S__").Value,"AutoAdj")@@	m/s &#xD;
+V_N1_N2_2_O: 	@@Str(Data.Root.ChannelGroups(1).Properties("V_N1_N2_2_O__M_S__").Value,"AutoAdj")@@	m/s&#xD;
+&#xD;
+KTT_HUB_A__C: 	@@Str(Data.Root.ChannelGroups(1).Properties("KTT_HUB_A__C___MM__").Value,"AutoAdj")@@	mm &#xD;
+KTT_HUB_A_1_O: 	@@Str(Data.Root.ChannelGroups(1).Properties("KTT_HUB_A_1_O__MM__").Value,"AutoAdj")@@	mm &#xD;
+KTT_HUB_A_2_O: 	@@Str(Data.Root.ChannelGroups(1).Properties("KTT_HUB_A_2_O__MM__").Value,"AutoAdj")@@	mm &#xD;
+</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi12"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi11"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi156">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi32"))</Font>
+      <Text>KUNDE:</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi14"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi13"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi157">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi33"))</Font>
+      <Text>PROJEKTNAME: 	@@Data.Root.ChannelGroups(1).Properties("PROJEKTNAME").Value@@ &#xD;
+KAMMERN: 	@@Str(Data.Root.ChannelGroups(1).Properties("KAMMERN").Value,"AutoAdj")@@&#xD;
+KUNDE: 		@@Data.Root.ChannelGroups(1).Properties("KUNDE").Value@@ &#xD;
+V_LEITER: 	@@Data.Root.ChannelGroups(1).Properties("V_LEITER").Value@@ &#xD;
+HERSTELLER: 	@@Data.Root.ChannelGroups(1).Properties("HERSTELLER").Value@@&#xD;
+&#xD;
+VERSUCHS_TYP: 	@@Data.Root.ChannelGroups(1).Properties("VERSUCHS_TYP").Value@@ &#xD;
+VERSUCHS_NR: 	@@Str(Data.Root.ChannelGroups(1).Properties("VERSUCHS_NR").Value,"AutoAdj")@@ &#xD;
+VARIANTE: 	@@Data.Root.ChannelGroups(1).Properties("VARIANTE").Value@@ &#xD;
+ZEICHNUNGS_NR: 	@@Data.Root.ChannelGroups(1).Properties("ZEICHNUNGS_NR").Value@@ &#xD;
+KONTO: 		@@Data.Root.ChannelGroups(1).Properties("KONTO").Value@@&#xD;
+PRUEF_NORM: 	@@Data.Root.ChannelGroups(1).Properties("PRUEF_NORM").Value@@ &#xD;
+SCHICHTTYP: &#xD;
+@@Data.Root.ChannelGroups(1).Properties("SCHICHTTYP").Value@@ &#xD;
+</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi16"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi15"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi158">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi34"))</Font>
+      <Text>TEST OBJEKT: @@Data.Root.ChannelGroups(1).Properties("KIND_OF_OBJECT").Value@@ &#xD;
+</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi18"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi17"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi159">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi35"))</Font>
+      <Text>V_OBJEKT: 		@@Data.Root.ChannelGroups(1).Properties("V_OBJEKT").Value@@ &#xD;
+SERIAL_NO_TO: 		@@Data.Root.ChannelGroups(1).Properties("SERIAL_NO_TO").Value@@&#xD;
+&#xD;
+U_NENN: 		@@Str(Data.Root.ChannelGroups(1).Properties("U_NENN__KV__").Value,"AutoAdj")@@	kV&#xD;
+IK_NENN: 		@@Str(Data.Root.ChannelGroups(1).Properties("IK_NENN__KA__").Value,"AutoAdj")@@	kA&#xD;
+FREQUENZ: 		@@Str(Data.Root.ChannelGroups(1).Properties("FREQUENZ__HZ__").Value,"AutoAdj")@@	Hz &#xD;
+SOLL_PRUEFSTROM: 	@@Str(Data.Root.ChannelGroups(1).Properties("SOLL_PRUEFSTROM__KA__").Value,"AutoAdj")@@	kA &#xD;
+MEDIUM: 		@@Data.Root.ChannelGroups(1).Properties("MEDIUM").Value@@ &#xD;
+PF_IST: 			@@Str(Data.Root.ChannelGroups(1).Properties("PF_IST__BAR__").Value,"AutoAdj")@@	Bar &#xD;
+</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi20"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi19"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi160">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi36"))</Font>
+      <Text>ANTRIEB: @@Data.Root.ChannelGroups(1).Properties("ANTRIEB").Value@@ &#xD;
+</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi22"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi21"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi161">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi37"))</Font>
+      <Text>SERIAL_NO_DRIVE:	@@Data.Root.ChannelGroups(1).Properties("SERIAL_NO_DRIVE").Value@@&#xD;
+&#xD;
+MOTOR_SPG: 		@@Str(Data.Root.ChannelGroups(1).Properties("MOTOR_SPG__V__").Value,"AutoAdj")@@	V &#xD;
+MOTORSPG_TYP:		@@Data.Root.ChannelGroups(1).Properties("MOTORSPG_TYP").Value@@ &#xD;
+TRIPPING: 		@@Str(Data.Root.ChannelGroups(1).Properties("TRIPPING__V__").Value,"AutoAdj")@@	V  &#xD;
+&#xD;
+HUB_N1: 			@@Str(Data.Root.ChannelGroups(1).Properties("HUB_N1__MM__").Value,"AutoAdj")@@	mm &#xD;
+HUB_N2: 			@@Str(Data.Root.ChannelGroups(1).Properties("HUB_N2__MM__").Value,"AutoAdj")@@	mm &#xD;
+GESAMT_HUB: 		@@Str(Data.Root.ChannelGroups(1).Properties("GESAMT_HUB__MM__").Value,"AutoAdj")@@	mm&#xD;
+ANTRIEBS_HUB: 		@@Str(Data.Root.ChannelGroups(1).Properties("ANTRIEBS_HUB__MM__").Value,"AutoAdj")@@	mm &#xD;
+</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi24"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi23"))</BackgroundColor>
+      <Alignment>Left</Alignment>
+    </TEXTBOXDATA>
+    <TEXTBOXDATA id="usi162">
+      <name>TextBoxData</name>
+      <DisplayTyp>2</DisplayTyp>
+      <Global_Data_Format></Global_Data_Format>
+      <Global_Data_Format_Time></Global_Data_Format_Time>
+      <Global_Data_Horz_Align>Left</Global_Data_Horz_Align>
+      <Global_Data_Font_Name></Global_Data_Font_Name>
+      <Global_Data_Highlight>2</Global_Data_Highlight>
+      <Global_Data_Font_Size>-1</Global_Data_Font_Size>
+      <Font>#xpointer(id("usi39"))</Font>
+      <Text>ABB TEST @@Data.Root.ChannelGroups(1).Properties("description").Value@@ (@@Data.Root.ChannelGroups(1).Properties("TESTING_CODE").Value@@ @@Data.Root.ChannelGroups(1).Properties("CYCLE_CODE").Value@@-OPERATION) BEMERKUNG: @@Data.Root.ChannelGroups(1).Properties("BEMERKUNG").Value@@ &#xD;
+</Text>
+      <WordWrap>1</WordWrap>
+      <ShowScrollBars>None</ShowScrollBars>
+      <RefreshType>OnDemand</RefreshType>
+      <FontColor>#xpointer(id("usi26"))</FontColor>
+      <BackgroundColor>#xpointer(id("usi25"))</BackgroundColor>
+      <Alignment>Center</Alignment>
+    </TEXTBOXDATA>
+  </usi:data>
+
+</usi:tdm>

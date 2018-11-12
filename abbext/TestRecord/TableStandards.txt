@@ -1,0 +1,72 @@
+#Fileversion 1.0
+#Standard,Parameter
+Bustransfer,CLIENT
+Bustransfer,CIRCUIT_CODE
+
+#Bustransfer
+#Bustransfer,Voltage
+#Bustransfer,Current
+#Bustransfer,arcing time
+#Bustransfer,Resistance before
+#Bustransfer,Resistance after
+
+#Fuse test
+#Fuse test,Fuse Type No
+#Fuse test,Fuse Serial No
+#Fuse test,Semiconductor Type No
+#Fuse test,Semiconductor Serial No.
+#Fuse test,Recovery Voltage
+#Fuse test,Prospective breaking current
+#Fuse test,powerfactor
+#Fuse test,Resistance before
+#Fuse test,arc start current
+#Fuse test,peak current
+#Fuse test,arc voltage
+#Fuse test,pre arcing time
+#Fuse test,arcing time
+#Fuse test,totap operating time
+#Fuse test,melting integral
+#Fuse test,total integral
+#Fuse test,making angle after voltage zero
+#Fuse test,initiation of arcing after voltage zero
+#Fuse test,resistance after test
+
+
+#Internal Arc
+#Internal Arc,short circuit current
+#Internal Arc,short time current
+#Internal Arc,duration
+
+#STC
+#STC,Short Circuit current-peak
+#STC,short circuit current-rms
+#STC,firstcycle
+#STC,lastcycle
+#STC,equ current
+#STC,duration
+#STC,short time current
+#STC,resistance before
+#STC,resistance after
+
+
+#Synthetik
+#Synthetik,Voltage of closing device
+#Synthetik,Closing time
+#Synthetik,Pre arcing time
+#Synthetik,Make time 
+#Synthetik,Voltage of opening device
+#Synthetik,Opening time
+#Synthetik,Arcing time
+#Synthetik,Break time
+#Synthetik,Making current
+#Synthetik,Breaking current
+#Synthetik,Current time
+#Synthetik,Voltage u1
+#Synthetik,Time t1
+#Synthetik,TRV
+#Synthetik,RV
+#Synthetik,Time t2/t3
+#Synthetik,Time delay td
+#Synthetik,Rate of rise
+#Synthetik,Resistance before
+#Synthetik,Resistance after

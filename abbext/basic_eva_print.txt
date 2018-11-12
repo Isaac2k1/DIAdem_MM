@@ -1,0 +1,327 @@
+1
+Sign.-Arise-Time
+<Time_Var><Time_Var><Time_Var><Ch><R4><L><When><When><When>
+Result-Var.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Signal-Noise   [% yMax] ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+2
+Level-Cross-Time
+<Time_Var><Time_Var><Time_Var><Ch><Y_Var><I2><R4><L><When><When><When>
+Result-Var.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Level to cross [yValue] ?
+Crossing-Num.  [1..100] ?
+Signal-Noise   [% yMax] ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+3
+Y Values of Time
+<Y_Var><Time_Var><Ch><OpList(3)><I2><L><When><When><When>
+Result-Var.-Name & Dim.
+Select Time-Value       :
+In which Channel        ?
+Select type of Y-Value  :
+Fitting-Points  [0-256] ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+4
+Extremum: t-Val.
+<Time_Var><Time_Var><Time_Var><Ch><OpList(7)><R4><I2><L><When><When><When>
+Result-Var.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Select type of Extremum :
+Signal-Noise   [% yMax] ?
+Fitting-Points  [0-256] ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+5
+Extremum: y-Val.
+<Y_Var><Time_Var><Time_Var><Ch><OpList(7)><R4><I2><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Select type of Extremum :
+Signal-Noise   [% yMax] ?
+Fitting-Points  [0-256] ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+6
+Max Rate-of-Rise ***
+<Y_Var><Time_Var><Time_Var><Ch><T8><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Enter the time distant  ? 1e-3/1e20
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+7
+Slope-Of-Secant.
+<Y_Var><Time_Var><Time_Var><Ch><L><When><When><When>
+Result-Var.-Name & Dim.
+Secant-Beg-Point        ?
+Secant-End-Point        ?
+In which Channel        ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+8
+Slope-Of-Tangent
+<Y_Var><Time_Var><Time_Var><Ch><Time_Var><OpList(5)><L><R4><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Reference-Point:  tVal. ?
+Select Type of Tangent  ?
+Get True Tangents only  ?
+Signal-Noise   [% yMax] ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+9
+Regr.-Line-Slope
+<Y_Var><Time_Var><Time_Var><Ch><OpList(4)><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Sel. Type of Regression :
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+10
+Regr.-Line-Y_Cut
+<Y_Var><Time_Var><Time_Var><Ch><OpList(4)><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Sel. Type of Regression :
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+11
+Regr.-Line-Corr.
+<Y_Var><Time_Var><Time_Var><Ch><OpList(4)><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Sel. Type of Regression :
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+12
+Plateau: y-Value
+<Y_Var><Time_Var><Time_Var><Ch><I2><R4><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Nr. of Classes  [5-100] ?
+Signal-Noise   [% yMax] ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+13
+Average -- Value
+<Y_Var><Time_Var><Time_Var><Ch><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+14
+Effective--Value
+<Y_Var><Time_Var><Time_Var><Ch><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+15
+Integral - Value
+<Y_Var><Time_Var><Time_Var><Ch><OpList(3)><R4><L><When><When><When>
+Result-Var.-Name & Dim.
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+In which Channel        ?
+Select Type of Integral :
+Expo for Abs. Integral  ?
+Mark the Result on Plot ?
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
+31
+Chn-Differential
+<Ch><Time_Var><Time_Var><Ch><OpList(2)><OpList(3)><I2><When>
+Result-Chn.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+Select Input-Channel    :
+Select Derivation-Type  :
+Sel. the Smoothing-Type :
+Fitting-Points  [3-256] ?
+When is Evaluation to perform ?
+
+32
+Channel-Integral
+<Ch><Time_Var><Time_Var><Ch><OpList(3)><R4><Y_Var><When>
+Result-Chn.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+Select Input-Channel    :
+Select Integral-Type    :
+Expo for Abs. Integral  ?
+Boundary-Cond.: Initial-Value ?
+When is Evaluation to perform ?
+
+33
+Recal.with Table ***
+<Ch><Time_Var><Time_Var><Ch><FileName><When>
+Result-Chn.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+Select Input-Channel    :
+Enter Table-File-Name   :
+When is Evaluation to perform ?
+
+34
+ChannelSmoothing
+<Ch><Time_Var><Time_Var><Ch><OpList(3)><I2><When>
+Result-Chn.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+Select Input-Channel    :
+Sel. the Smoothing-Type :
+Fitting-Points  [3-256] ?
+When is Evaluation to perform ?
+
+35
+Remove - Outlier ***
+<Ch><Time_Var><Time_Var><Ch><When>
+Result-Chn.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+Select Input-Channel    :
+When is Evaluation to perform ?
+
+36
+Two-Channel-Math
+<Ch><Time_Var><Time_Var><Ch><Oplist(4)><Ch><L><When>
+Result-Chn.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+Select the first Channel:
+Select the Math-Operator:
+Select the second Channel:
+Only for equal Sampling-Rates ?
+When is Evaluation to perform ?
+
+37
+One-Channel-Math
+<Ch><Time_Var><Time_Var><Ch><Oplist(8)><Var><When><Character>
+Result-Chn.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+Select Input-Channel    :
+Select Math-Operator    :
+Select the Variable     :
+When is Evaluation to perform ?
+f(tAbs
+
+38
+FourierTransform
+<Ch><Time_Var><Time_Var><Ch><Oplist(3)><Y_Var><Y_Var><I2><When>
+Result-Chn.-Name
+Where must Eval. Start  ?
+Where must Eval. Stop   ?
+Select the Source-Chn.  :
+Select the Result-Type  :
+Low-Pass Cutoff-Fr.[Hz] ?
+High-Pass Cutoff-Fr.[Hz] ?
+Lines for the Trapezoid ?
+When is Evaluation to perform ?
+
+51
+Two-Var-Mathemat
+<Var><Var><OpList(14)><Var><When><When><When><Character>
+Result-Var.-Name
+Select Variable one:
+Select the Operator:
+Select Variable two:
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+Enter f(xVal
+
+52
+One-Var-Mathemat
+<Var><OpList(15)><Var><When><When><When><Character>
+Result-Var.-Name
+Select the Operator:
+Select the Variable:
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+Enter Funct. f(xVal) or File  :
+
+60
+Result-Comments
+<Text_Var><Var><FileName><When><When><When>
+Result-Var.-Name
+Comparison-Var.:
+Selection-File :
+When is Evaluation to perform ?
+When is Result to put on Plot ?
+When is Result to put to Rep. ?
+
